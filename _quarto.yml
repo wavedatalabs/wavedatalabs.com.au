@@ -1,0 +1,25 @@
+project:
+  type: website
+  
+website:
+  title: "Wave Data Labs"
+  site-url: "https://wavedatalabs.com.au"
+  description: "Data Science and Statistical Consulting"
+  favicon: img/logo.png
+  open-graph: true
+  google-analytics: "UA-XXXXXXXX"
+  navbar:
+    logo: img/logo.png
+    left:
+      - href: index.qmd
+        text: ' '
+  page-footer:
+    left: "Copyright 2023, Wave Data Labs Pty Ltd"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+
