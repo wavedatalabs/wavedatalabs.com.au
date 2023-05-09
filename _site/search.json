@@ -1,44 +1,289 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science and Statistical Consulting",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Dean Marchiori",
     "section": "",
-    "text": "We help organisations solve complex problems using mathematics, statistics and data.\n\n\n\nStatistical Modelling\nShiny App Development\nR Programming\n\nData Visualisation\n\n\n\nGeospatial Analysis\n\nTime Series Forecasting\nAnomaly and Outlier Detection\nA/B Testing and Experimentation"
+    "text": "The Team\nSmall but effective.\n\n  \n    \n\n    \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     CV\n  \n\n  \n  \nDean Marchiori is Director and Principal Data Scientist at Wave Data Labs where he consults on statistical modelling, applied mathematics and advanced analytics. Dean holds a BSc. in Mathematics with University Medal from Charles Sturt University, a Master of Applied Finance degree, and a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize in Statistics. He has been named one of the top 10 analytics leaders in Australia by the Institute of Analytics Professionals of Australia (IAPA). He is also recognised as an Accredited Statistician with the Statistical Society of Australia where he is co-chair of the committee for Statistical Computing and Visualisation.\nFor more info you can go to deanmarchiori.com"
   },
   {
-    "objectID": "index.html#solutions",
-    "href": "index.html#solutions",
-    "title": "Data Science and Statistical Consulting",
+    "objectID": "services/2023-03-17-building-your-own-r-data-science-lab/index.html",
+    "href": "services/2023-03-17-building-your-own-r-data-science-lab/index.html",
+    "title": "Building your own R Data Science Lab in the browser",
     "section": "",
-    "text": "We help organisations solve complex problems using mathematics, statistics and data.\n\n\n\nStatistical Modelling\nShiny App Development\nR Programming\n\nData Visualisation\n\n\n\nGeospatial Analysis\n\nTime Series Forecasting\nAnomaly and Outlier Detection\nA/B Testing and Experimentation"
+    "text": "Most R users probably just run RStudio Desktop from Posit on their local computers. This involves manually installing R, RStudio and all other packages.\nHowever it is often the case that users are operating in a restricted computing environment, such as in a corporate or government setting. Alternatively you may wish to create a custom development environment to test or replicate some other specific setup. This is a good case to move away from locally managed software to containerization, such as Docker.\nI have set up a Github repository that sets up a local data science development environment in the browser.\nIt builds a docker container including:\n\nUbuntu 20.04 LTS\nR version 4.2\nRStudio Server 2022.02.3+492\nAll tidyverse packages and devtools\ntex & publishing-related package\n\nThe image builds on the rocker/verse image from Rocker Project.\nSome other enhanced configuration options are included in the Dockerfile, such as preloading you RStudio preferences to get the same look and feel you have locally, the option to install other CRAN packages & mounting local volumes to persist your work locally.\nGo here for Step by step instructions:\nhttps://github.com/deanmarchiori/ds-env-setup"
   },
   {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Data Science and Statistical Consulting",
-    "section": "Contact",
-    "text": "Contact\nLet’s build something cool together!\n info@wavedatalabs.com.au\n Book a meeting\n\n\n\n\n\n UOW Innovation Campus, 239 Squires Way, North Wollongong NSW 2522"
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html",
+    "title": "Running Shiny in a Docker container",
+    "section": "",
+    "text": "Basic minimal example for running shiny in Docker. It is assumed you have Docker installed."
+  },
+  {
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#dockerfile",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#dockerfile",
+    "title": "Running Shiny in a Docker container",
+    "section": "Dockerfile",
+    "text": "Dockerfile\nThis should be adapted as required.\n# Using rocker/rver::version, update version as appropriate\nFROM rocker/r-ver:3.5.0\n\n# install dependencies\nRUN apt-get update && apt-get install -y \\\n    sudo \\\n    gdebi-core \\\n    pandoc \\\n    pandoc-citeproc \\\n    libcurl4-gnutls-dev \\\n    libcairo2-dev \\\n    libxt-dev \\  \n    libxml2-dev \\  \n    libssl-dev \\  \n    wget\n\n\n# Download and install shiny server\nRUN wget --no-verbose https://download3.rstudio.org/ubuntu-14.04/x86_64/VERSION -O \"version.txt\" && \\\n    VERSION=$(cat version.txt)  && \\\n    wget --no-verbose \"https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-$VERSION-amd64.deb\" -O ss-latest.deb && \\\n    gdebi -n ss-latest.deb && \\\n    rm -f version.txt ss-latest.deb && \\\n    . /etc/environment && \\\n    R -e \"install.packages(c('shiny', 'rmarkdown'), repos='$MRAN')\" && \\\n    cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/\n\n# Copy configuration files into the Docker image\nCOPY shiny-server.conf  /etc/shiny-server/shiny-server.conf\nCOPY shiny-server.sh /usr/bin/shiny-server.sh\n\n# Copy shiny app to Docker image\nCOPY /myapp /srv/shiny-server/myapp\n\n# Expose desired port\nEXPOSE 80\n\nCMD [\"/usr/bin/shiny-server.sh\"]"
+  },
+  {
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#list-images",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#list-images",
+    "title": "Running Shiny in a Docker container",
+    "section": "List Images",
+    "text": "List Images\ndocker images"
+  },
+  {
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#list-all-containers",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#list-all-containers",
+    "title": "Running Shiny in a Docker container",
+    "section": "List All Containers",
+    "text": "List All Containers\ndocker ps -a"
+  },
+  {
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#remove-containers",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#remove-containers",
+    "title": "Running Shiny in a Docker container",
+    "section": "Remove Containers",
+    "text": "Remove Containers\nFor individual containers add the container ID\n$ docker rm\nTo remove all exited containers :\n$ docker rm $(docker ps -a -q -f status=exited)"
+  },
+  {
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#system-prune",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#system-prune",
+    "title": "Running Shiny in a Docker container",
+    "section": "System Prune",
+    "text": "System Prune\nRemove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.\ndocker system prune -a"
+  },
+  {
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#save-as-tar-archive",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#save-as-tar-archive",
+    "title": "Running Shiny in a Docker container",
+    "section": "Save as tar-archive",
+    "text": "Save as tar-archive\ndocker save -o ~/myapp.tar myapp"
+  },
+  {
+    "objectID": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#load-and-run-archive",
+    "href": "services/2022-01-17-running-shiny-in-a-docker-container/index.html#load-and-run-archive",
+    "title": "Running Shiny in a Docker container",
+    "section": "Load and Run Archive",
+    "text": "Load and Run Archive\ndocker load -i myapp.tar\ndocker run myapp"
+  },
+  {
+    "objectID": "services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
+    "href": "services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
+    "title": "Deploy Your Own R Data Science Lab in the Cloud",
+    "section": "",
+    "text": "In a previous post I linked to a project that makes it easy to deploy and extend an existing Rocker Project Docker image to quickly set up a fully featured RStudio Server environment locally on your machine.\nHere I’ll cover some options to deploy this environment to the cloud so you can access it anywhere."
+  },
+  {
+    "objectID": "services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-1-deploy-to-a-virtual-machine",
+    "href": "services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-1-deploy-to-a-virtual-machine",
+    "title": "Deploy Your Own R Data Science Lab in the Cloud",
+    "section": "Option 1: Deploy to a Virtual Machine",
+    "text": "Option 1: Deploy to a Virtual Machine\nA common pattern is to create a Virtual Machine (VM) with a cloud service provider (such as AWS, Azure, GCP) and run your code there. I’ll cover an example using Microsoft Azure.\n\nDeploy a VM with an Ubuntu operating system. Go ahead and choose the compute power you need.\n\n\n\nConfigure a custom network rule to allow traffic on port 8787 for RStudio\n\n\n3. Log into your new VM terminal using SSH\n\n\nInstall Docker Engine by following these steps\nClone and Deploy the docker container from Step 2 in my guide."
+  },
+  {
+    "objectID": "services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-2-deploy-using-azure-app-service",
+    "href": "services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-2-deploy-using-azure-app-service",
+    "title": "Deploy Your Own R Data Science Lab in the Cloud",
+    "section": "Option 2: Deploy using Azure App Service",
+    "text": "Option 2: Deploy using Azure App Service\nThe above is fine, but arguably if you are setting up a VM from scratch for development purposes I’m not sure what benefit there is from using a docker container. You may as well just directly install what you want and consider the VM a ‘container’.\nHowever, if you plan to make this available to other users in your organisation, or to adapt this guide for Shiny App development you may be interested in other features such as TLS/SSL security, scale up, advanced networking, continuous integration, continuous deployment, staging/production deployment slots etc. This represents a shift from development sandpit to ‘web app’. For this case, Azure App Service may be a lower hassle option. This is Microsoft’s enterprise grade, web app deployment managed service.\nIn the Virtual Machine model you are setting up compute infrastructure, deploying and running containers directly - then fiddling with the infrastructure layer for everything else. In App Service you deploy your custom docker container (here containing RStudio Server) to Azure Container Registry (kind of like DockerHub). Azure App Services then builds and serves your app from there - without you having to stand up and manage an Infra layer directly.\n\n\nCreate Azure Container Registry (ACR) (or some other Docker repository) using this help guide\nRun and test your container locally\nDeploy your local container to ACR using this help guide\nCreate a new web app in Azure App Services using this help guide\nConfiguration:\n\n\nI didn’t have to fiddle with ports, presumably it reads the exposed ports in the docker file and does this magically.\n\nFor custom environment variables like the RStudio Server password, I had to manually add this in the config section.\n\n\nand it worked just fine:"
+  },
+  {
+    "objectID": "services/index.html",
+    "href": "services/index.html",
+    "title": "Data Science & Statistical Consulting",
+    "section": "",
+    "text": "We are available for short or long term consulting and contract opportunities in a range of fields. If you are interesting in working together get in touch here."
+  },
+  {
+    "objectID": "services/index.html#some-of-our-work",
+    "href": "services/index.html#some-of-our-work",
+    "title": "Data Science & Statistical Consulting",
+    "section": "Some of our work",
+    "text": "Some of our work"
   },
   {
     "objectID": "contact/index.html",
     "href": "contact/index.html",
-    "title": "Contact Me",
+    "title": "Contact",
     "section": "",
-    "text": "Want to get in touch? Drop me an email or book in a chat.\ndeanmarchiori@gmail.com\nBook a meeting"
+    "text": "Let’s build something cool together!\n info@wavedatalabs.com.au\n Book a meeting\n\n\n\n\n\n UOW Innovation Campus, 239 Squires Way, North Wollongong NSW 2522"
   },
   {
-    "objectID": "contact/index.html#location",
-    "href": "contact/index.html#location",
-    "title": "Contact Me",
-    "section": "Location",
-    "text": "Location\n UOW Innovation Campus, 239 Squires Way, North Wollongong NSW 2522"
+    "objectID": "posts/2023-03-17-building-your-own-r-data-science-lab/index.html",
+    "href": "posts/2023-03-17-building-your-own-r-data-science-lab/index.html",
+    "title": "Building your own R Data Science Lab in the browser",
+    "section": "",
+    "text": "Most R users probably just run RStudio Desktop from Posit on their local computers. This involves manually installing R, RStudio and all other packages.\nHowever it is often the case that users are operating in a restricted computing environment, such as in a corporate or government setting. Alternatively you may wish to create a custom development environment to test or replicate some other specific setup. This is a good case to move away from locally managed software to containerization, such as Docker.\nI have set up a Github repository that sets up a local data science development environment in the browser.\nIt builds a docker container including:\n\nUbuntu 20.04 LTS\nR version 4.2\nRStudio Server 2022.02.3+492\nAll tidyverse packages and devtools\ntex & publishing-related package\n\nThe image builds on the rocker/verse image from Rocker Project.\nSome other enhanced configuration options are included in the Dockerfile, such as preloading you RStudio preferences to get the same look and feel you have locally, the option to install other CRAN packages & mounting local volumes to persist your work locally.\nGo here for Step by step instructions:\nhttps://github.com/deanmarchiori/ds-env-setup"
   },
   {
-    "objectID": "contact/index.html#other-platforms",
-    "href": "contact/index.html#other-platforms",
-    "title": "Contact Me",
-    "section": "Other platforms",
-    "text": "Other platforms\n LinkedIn \n Github \n Twitter \n Mastodon"
+    "objectID": "posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html",
+    "href": "posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html",
+    "title": "When should you be using the Hypergeometric distribution in practice?",
+    "section": "",
+    "text": "We have a manufacturing process in the day job that is subject to sample auditing.\nThere are \\(N\\) widgets produced and we need to audit \\(n\\) of them. Some sort of rejection threshold is needed on that sample to decide if the whole batch of widgets has met a specified quality level.\nTypically, a binomial distribution would be appropriate for measuring the probability of \\(k\\) successes (in this case defects found) in \\(n\\) independent trials with probability \\(p\\).\n\\[\nPr(X=k) = {n \\choose k} p^k(1-p)^{n-k}\n\\]\nThe word independent is doing a lot of work here as it implies that we are sampling with replacement in order to maintain a fixed probability parameter \\(p\\).\nIn cases where you are taking draws from a population without replacement (such as when you do destructive inspections on a widget) the underlying population changes with each draw and so does the probability \\(p\\).\nIn this case, modelling the process using a hypergeometric distribution may be a more appropriate choice.\n\\[\nPr(X=k) = \\frac{{K \\choose k}{N-K \\choose n-k}}{{N \\choose n}}\n\\]\nIt similarly describes the probability of \\(k\\) successes in \\(n\\) draws without replacement. However, instead of specifying a parameter \\(p\\), we provide the population size \\(N\\), which contains \\(K\\) success states in the population."
+  },
+  {
+    "objectID": "posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html#example",
+    "href": "posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html#example",
+    "title": "When should you be using the Hypergeometric distribution in practice?",
+    "section": "Example",
+    "text": "Example\nLet’s say we have 2000 widgets manufactured and we want to sample 50 (ignore why 50, that is a whole separate question). We have an assumed quality level of 10% defective units (which we define as ‘success’ for complicated reasons).\nQ: Based on a sample of 50 widgets how many defective units would be considered unlikely (95% CI) to occur randomly given our assumed quality level, and therefore result in us rejecting the entire batch?\nWe can compare the binomial probability mass function with the hypergeometric and observe they are essentially the same.\n\nlibrary(tidyverse)\n\n\ntibble(\n       x =  seq.int(0, 50, by = 1),\n       binomial = dbinom(x, size = 50, prob = 0.1),\n       hypergeom_2000 = dhyper(x, m = 200, n = 1800, k = 50),\n       ) |&gt; \n  pivot_longer(cols = -1, names_to = 'distribution', values_to = 'density') |&gt; \n  ggplot(aes(x, density, col = distribution)) +\n  geom_line() +\n  geom_point() +\n  xlim(c(0, 20)) +\n  theme_bw() +\n  labs(x = \"Observed defective units in sample\")\n\n\n\n\nHowever, if we had a smaller population of say 100 or 70 widgets, how would this compare?\n\ntibble(\n       x =  seq.int(0, 50, by = 1),\n       binomial = dbinom(x, size = 50, prob = 0.1),\n       hypergeom_2000 = dhyper(x, m = 200, n = 1800, k = 50),\n       hypergeom_100 = dhyper(x, m = 10, n = 90, k = 50),\n       hypergeom_070 = dhyper(x, m = 7, n = 63, k = 50)\n       ) |&gt; \n  pivot_longer(cols = -1, names_to = 'distribution', values_to = 'density') |&gt; \n  ggplot(aes(x, density, col = distribution)) +\n  geom_line() +\n  geom_point() +\n  xlim(c(0, 20)) +\n  theme_bw() +\n  labs(x = \"Observed defective units in sample\")\n\n\n\n\nWe can see these curves are markedly different. And indeed the 95% confidence intervals obtained are narrower for the hypergeometric case.\n\nqbinom(p = c(0.025, 0.975), size = 50, prob = 0.1)\n\n[1] 1 9\n\nqhyper(p = c(0.025, 0.975), m = 10, n = 90, k = 50)\n\n[1] 2 8\n\n\nWe can see from a random draw of 1 million samples from each PMF that they both have the same expected values, but the variance is smaller in the hypergeometric case.\n\nX &lt;- rbinom(n = 1e6, size = 50, prob = 0.1)\nY &lt;- rhyper(nn = 1e6, m = 10, n = 90, k = 50)\n\nmean(X)\n\n[1] 4.999079\n\nvar(X)\n\n[1] 4.498633\n\nmean(Y)\n\n[1] 5.000942\n\nvar(Y)\n\n[1] 2.273265"
+  },
+  {
+    "objectID": "posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html#does-it-matter-which-one-you-use",
+    "href": "posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html#does-it-matter-which-one-you-use",
+    "title": "When should you be using the Hypergeometric distribution in practice?",
+    "section": "Does it matter which one you use?",
+    "text": "Does it matter which one you use?\nAs a consequence of removing samples in each draw we influence the probability of a subsequent success. If our \\(N\\) and \\(K\\) is very large relative to our sample \\(n\\) this wont make much of an impact, but it can be impactful for smaller populations, or relatively larger samples.\nFrom our example above, failing to use a hypergeometric distribution to model this process for smaller populations will result in wider, more conservative acceptance regions which can increase consumer risk in a manufacturing process.\nTypical guidance on when to use each distribution is given in manufacturing standards such as AS 1199.1-2003: Sampling Procedures for Inspection by Attributes and typically involves how you structure your sampling scheme."
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html",
+    "title": "Running Shiny in a Docker container",
+    "section": "",
+    "text": "Basic minimal example for running shiny in Docker. It is assumed you have Docker installed."
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#dockerfile",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#dockerfile",
+    "title": "Running Shiny in a Docker container",
+    "section": "Dockerfile",
+    "text": "Dockerfile\nThis should be adapted as required.\n# Using rocker/rver::version, update version as appropriate\nFROM rocker/r-ver:3.5.0\n\n# install dependencies\nRUN apt-get update && apt-get install -y \\\n    sudo \\\n    gdebi-core \\\n    pandoc \\\n    pandoc-citeproc \\\n    libcurl4-gnutls-dev \\\n    libcairo2-dev \\\n    libxt-dev \\  \n    libxml2-dev \\  \n    libssl-dev \\  \n    wget\n\n\n# Download and install shiny server\nRUN wget --no-verbose https://download3.rstudio.org/ubuntu-14.04/x86_64/VERSION -O \"version.txt\" && \\\n    VERSION=$(cat version.txt)  && \\\n    wget --no-verbose \"https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-$VERSION-amd64.deb\" -O ss-latest.deb && \\\n    gdebi -n ss-latest.deb && \\\n    rm -f version.txt ss-latest.deb && \\\n    . /etc/environment && \\\n    R -e \"install.packages(c('shiny', 'rmarkdown'), repos='$MRAN')\" && \\\n    cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/\n\n# Copy configuration files into the Docker image\nCOPY shiny-server.conf  /etc/shiny-server/shiny-server.conf\nCOPY shiny-server.sh /usr/bin/shiny-server.sh\n\n# Copy shiny app to Docker image\nCOPY /myapp /srv/shiny-server/myapp\n\n# Expose desired port\nEXPOSE 80\n\nCMD [\"/usr/bin/shiny-server.sh\"]"
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#list-images",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#list-images",
+    "title": "Running Shiny in a Docker container",
+    "section": "List Images",
+    "text": "List Images\ndocker images"
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#list-all-containers",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#list-all-containers",
+    "title": "Running Shiny in a Docker container",
+    "section": "List All Containers",
+    "text": "List All Containers\ndocker ps -a"
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#remove-containers",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#remove-containers",
+    "title": "Running Shiny in a Docker container",
+    "section": "Remove Containers",
+    "text": "Remove Containers\nFor individual containers add the container ID\n$ docker rm\nTo remove all exited containers :\n$ docker rm $(docker ps -a -q -f status=exited)"
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#system-prune",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#system-prune",
+    "title": "Running Shiny in a Docker container",
+    "section": "System Prune",
+    "text": "System Prune\nRemove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.\ndocker system prune -a"
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#save-as-tar-archive",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#save-as-tar-archive",
+    "title": "Running Shiny in a Docker container",
+    "section": "Save as tar-archive",
+    "text": "Save as tar-archive\ndocker save -o ~/myapp.tar myapp"
+  },
+  {
+    "objectID": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#load-and-run-archive",
+    "href": "posts/2022-01-17-running-shiny-in-a-docker-container/index.html#load-and-run-archive",
+    "title": "Running Shiny in a Docker container",
+    "section": "Load and Run Archive",
+    "text": "Load and Run Archive\ndocker load -i myapp.tar\ndocker run myapp"
+  },
+  {
+    "objectID": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html",
+    "href": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html",
+    "title": "Prediction Intervals for Linear Mixed Effects Models",
+    "section": "",
+    "text": "A recent project with repeated measures data involved fitting a random intercept term, and eventually making predictions for new groups not in the training sample. Importantly there was a need for individual predictions rather than population mean level predictions. Now, you obviously cannot include the random effect for a level that is not in your data, so the idea was to make a population level prediction with an adequate prediction interval that reflected the variation from both the fixed and random effects. This is complicated.\nIn the help page for lme4::predict.merMod() is the following note:\nThere are some useful resources out there but it took a while to track down, so this post may serve as a good reference in the future.\nLet’s go through an example using the famous sleepstudy data showing the average reaction time per day (in milliseconds) for subjects in a sleep deprivation study.\nlibrary(lme4)\nlibrary(tidyverse)\n\ndata(\"sleepstudy\")"
+  },
+  {
+    "objectID": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#linear-model",
+    "href": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#linear-model",
+    "title": "Prediction Intervals for Linear Mixed Effects Models",
+    "section": "Linear Model",
+    "text": "Linear Model\nWe would like to model the relationship between Reaction and Days\n\nggplot(sleepstudy, aes(Days, Reaction)) +\n  geom_point(show.legend = FALSE) +\n  theme_bw()\n\n\n\n\nFitting a basic linear model:\n\nfit_lm &lt;- lm(Reaction ~ Days, data = sleepstudy)\n\nsummary(fit_lm)\n\n\nCall:\nlm(formula = Reaction ~ Days, data = sleepstudy)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-110.848  -27.483    1.546   26.142  139.953 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)  251.405      6.610  38.033  &lt; 2e-16 ***\nDays          10.467      1.238   8.454 9.89e-15 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 47.71 on 178 degrees of freedom\nMultiple R-squared:  0.2865,    Adjusted R-squared:  0.2825 \nF-statistic: 71.46 on 1 and 178 DF,  p-value: 9.894e-15\n\n\n\nggplot(sleepstudy, aes(Days, Reaction)) +\n  geom_point(show.legend = FALSE) +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1]) +\n  theme_bw()\n\n\n\n\nBut this ignores the fact these data are not independent. We have multiple observation per subject. Some look like a good fit, others not.\n\nggplot(sleepstudy, aes(Days, Reaction, col = Subject)) +\n  geom_point(show.legend = FALSE) +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1]) +\n  facet_wrap(~Subject) +\n  theme_bw()"
+  },
+  {
+    "objectID": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#linear-mixed-effects-model",
+    "href": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#linear-mixed-effects-model",
+    "title": "Prediction Intervals for Linear Mixed Effects Models",
+    "section": "Linear Mixed Effects Model",
+    "text": "Linear Mixed Effects Model\nLet’s add a random intercept term for Subject. For simplicity we will leave out any other random effects.\n\nfit &lt;- lme4::lmer(Reaction ~ Days + (1|Subject), data = sleepstudy)\n\nsummary(fit)\n\nLinear mixed model fit by REML ['lmerMod']\nFormula: Reaction ~ Days + (1 | Subject)\n   Data: sleepstudy\n\nREML criterion at convergence: 1786.5\n\nScaled residuals: \n    Min      1Q  Median      3Q     Max \n-3.2257 -0.5529  0.0109  0.5188  4.2506 \n\nRandom effects:\n Groups   Name        Variance Std.Dev.\n Subject  (Intercept) 1378.2   37.12   \n Residual              960.5   30.99   \nNumber of obs: 180, groups:  Subject, 18\n\nFixed effects:\n            Estimate Std. Error t value\n(Intercept) 251.4051     9.7467   25.79\nDays         10.4673     0.8042   13.02\n\nCorrelation of Fixed Effects:\n     (Intr)\nDays -0.371\n\n\nNew fitted lines can be drawn, showing the adjusted intercept for each subject (original regression line kept for reference).\n\nsleepstudy |&gt; \n  mutate(pred = predict(fit, re.form = NULL)) |&gt; \n  ggplot(aes(Days, Reaction, col = Subject)) +\n  geom_point(show.legend = FALSE) +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1], col = \"grey\") +\n  geom_line(aes(Days, pred), show.legend = FALSE) +\n  facet_wrap(~Subject) +\n  theme_bw()"
+  },
+  {
+    "objectID": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#bootstrapped-prediction-intervals-observed-data",
+    "href": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#bootstrapped-prediction-intervals-observed-data",
+    "title": "Prediction Intervals for Linear Mixed Effects Models",
+    "section": "Bootstrapped Prediction Intervals (observed data)",
+    "text": "Bootstrapped Prediction Intervals (observed data)\nLet’s try and generate prediction intervals using lme4::bootMer() as suggested.\nFirst on the in-sample data.\n\n# predict function for bootstrapping\npredfn &lt;- function(.) {\n  predict(., newdata=new, re.form=NULL)\n}\n\n# summarise output of bootstrapping\nsumBoot &lt;- function(merBoot) {\n  return(\n    data.frame(fit = apply(merBoot$t, 2, function(x) as.numeric(quantile(x, probs=.5, na.rm=TRUE))),\n               lwr = apply(merBoot$t, 2, function(x) as.numeric(quantile(x, probs=.025, na.rm=TRUE))),\n               upr = apply(merBoot$t, 2, function(x) as.numeric(quantile(x, probs=.975, na.rm=TRUE)))\n    )\n  )\n}\n\n# 'new' data\nnew &lt;- sleepstudy\n\nNotes:\n\nIn the predict() function we specify re.form=NULL which identifies which random effects to condition on. Here NULL includes all random effects. Obviously here you can compute individual predictions assuming you feed it with the correct grouping level in your data.\nIn the lme4::bootMer() function we set use.u=TRUE. This conditions on the random effects and only provides uncertainly estimates for the i.i.d. errors resulting from the fixed effects of the model.\n\n\nIf use.u is TRUE and type==“parametric”, only the i.i.d. errors are resampled, with the values of u staying fixed at their estimated values.\n\n\nboot &lt;- lme4::bootMer(fit, predfn, nsim=250, use.u=TRUE, type=\"parametric\")\n\n\nnew |&gt; \n  bind_cols(sumBoot(boot)) |&gt; \n  ggplot(aes(Days, Reaction, col = Subject, fill = Subject)) +\n  geom_point(show.legend = FALSE) +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1]) +\n  geom_line(aes(Days, fit), show.legend = FALSE) +\n  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.3, show.legend = FALSE) +\n  facet_wrap(~Subject) +\n  theme_bw()"
+  },
+  {
+    "objectID": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#dealing-with-unobserved-data",
+    "href": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#dealing-with-unobserved-data",
+    "title": "Prediction Intervals for Linear Mixed Effects Models",
+    "section": "Dealing with unobserved data",
+    "text": "Dealing with unobserved data\nHowever, this gets complicated if we want to make predictions for new subjects.\nWe can no longer condition on the random effects, as the new subject level will not have a fitted random intercept value. Instead we need to effectively make a population level prediction (i.e. set the random effect to zero.). This makes sense as we don’t know what the random effect ought to be for a given, unobserved subject.\nBut we don’t want the prediction interval to just cover the uncertainty in the population level estimate. If we are interested in individual predictions, how can we incorporate the uncertainly of the random effects in the prediction intervals?\nLets generate a new, unobserved subject.\n\nnew_subject &lt;- tibble(\n  Days = 0:9,\n  Subject = factor(\"999\")\n  )\n\nWe provide a new predict function that doesn’t condition on the random effects by using re.form = ~0. This lets us input and obtain predictions for new subjects.\n\npredfn &lt;- function(.) {\n  predict(., newdata=new_subject, re.form=~0, allow.new.levels=TRUE)\n}\n\n\nnew_subject |&gt; \n  bind_cols(predicted = predfn(fit)) |&gt; \n  ggplot(aes(Days, predicted, col = Subject)) +\n  geom_point() +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1]) +\n  theme_bw() +\n  ylim(c(150, 450))\n\n\n\n\nHowever using predict just results in a completely deterministic prediction as shown above.\nAn alternative approach is to use lme4::simulate() which will simulate responses for subjects non-deterministically using the fitted model object.\nBelow we can see a comparison on both approaches.\n\npredfn &lt;- function(.) {\n  predict(., newdata=new_subject, re.form=~0, allow.new.levels=TRUE)\n}\n\nsfun &lt;- function(.) {\n    simulate(., newdata=new_subject, re.form=NULL, allow.new.levels=TRUE)[[1]]\n}\n\n\nnew_subject |&gt; \n  bind_cols(simulated = sfun(fit)) |&gt; \n  bind_cols(predicted = predfn(fit)) |&gt; \n  pivot_longer(cols = c(3, 4), names_to = \"type\", values_to = \"val\") |&gt; \n  ggplot(aes(Days, val, col = type)) +\n  geom_point() +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1]) +\n  theme_bw() +\n  ylim(c(150, 450))\n\n\n\n\nWe can use this simulate() function in our bootstrapping to resample responses from the fitted model (rather than resampling deterministic population predictions).\nThis time we set use.u=FALSE to provide uncertainly estimates from both the model errors and the random effects.\n\nIf use.u is FALSE and type is “parametric”, each simulation generates new values of both the “spherical” random effects uu and the i.i.d. errors , using rnorm() with parameters corresponding to the fitted model x.\n\n\nboot &lt;- lme4::bootMer(fit, sfun, nsim=250, use.u=FALSE, type=\"parametric\", seed = 100)\n\n\nnew_subject |&gt; \n  bind_cols(sumBoot(boot)) |&gt; \n  bind_cols(predicted = predfn(fit)) |&gt; \n  ggplot(aes(Days, predicted, col = Subject, fill = Subject)) +\n  geom_point() +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1]) +\n  geom_line(aes(Days, fit), show.legend = FALSE) +\n  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.3, show.legend = FALSE) +\n  theme_bw() +\n  ylim(c(150, 450))\n\n\n\n\nSo while we don’t have a conditional mode of the random effect (because its a new subject) we can derive a bootstrapped estimate of the prediction interval by resampling the random effects and model errors on simulated data values."
+  },
+  {
+    "objectID": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#aside",
+    "href": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#aside",
+    "title": "Prediction Intervals for Linear Mixed Effects Models",
+    "section": "Aside",
+    "text": "Aside\nFor comparison, here is what the same prediction interval would look like if we just used an unconditional population prediction. While the overall gist is the same, despite also resampling both the random effects and the i.i.d. errors, the interval is narrower as it is resampling just the deterministic population predictions of the model.\n\nboot &lt;- lme4::bootMer(fit, predfn, nsim=250, use.u=FALSE, type=\"parametric\", seed = 100)\n\n\nnew_subject |&gt; \n  bind_cols(sumBoot(boot)) |&gt; \n  bind_cols(predicted = predfn(fit)) |&gt; \n  ggplot(aes(Days, predicted, col = Subject, fill = Subject)) +\n  geom_point() +\n  geom_abline(slope = fit_lm$coefficients[2], intercept = fit_lm$coefficients[1]) +\n  geom_line(aes(Days, fit), show.legend = FALSE) +\n  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.3, show.legend = FALSE) +\n  theme_bw() +\n  ylim(c(150, 450))"
+  },
+  {
+    "objectID": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#references",
+    "href": "posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html#references",
+    "title": "Prediction Intervals for Linear Mixed Effects Models",
+    "section": "References",
+    "text": "References\nMost of the material and code is taken from a variety of sources below. In particular the lme4 github issue. Also, the merTools package has a nice vignette comparing these methods with their own solution.\nhttps://tmalsburg.github.io/predict-vs-simulate.html https://github.com/lme4/lme4/issues/388 https://cran.r-project.org/web/packages/merTools/vignettes/Using_predictInterval.html http://bbolker.github.io/mixedmodels-misc/glmmFAQ.html#predictions-andor-confidence-or-prediction-intervals-on-predictions"
+  },
+  {
+    "objectID": "posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
+    "href": "posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
+    "title": "Deploy Your Own R Data Science Lab in the Cloud",
+    "section": "",
+    "text": "In a previous post I linked to a project that makes it easy to deploy and extend an existing Rocker Project Docker image to quickly set up a fully featured RStudio Server environment locally on your machine.\nHere I’ll cover some options to deploy this environment to the cloud so you can access it anywhere."
+  },
+  {
+    "objectID": "posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-1-deploy-to-a-virtual-machine",
+    "href": "posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-1-deploy-to-a-virtual-machine",
+    "title": "Deploy Your Own R Data Science Lab in the Cloud",
+    "section": "Option 1: Deploy to a Virtual Machine",
+    "text": "Option 1: Deploy to a Virtual Machine\nA common pattern is to create a Virtual Machine (VM) with a cloud service provider (such as AWS, Azure, GCP) and run your code there. I’ll cover an example using Microsoft Azure.\n\nDeploy a VM with an Ubuntu operating system. Go ahead and choose the compute power you need.\n\n\n\nConfigure a custom network rule to allow traffic on port 8787 for RStudio\n\n\n3. Log into your new VM terminal using SSH\n\n\nInstall Docker Engine by following these steps\nClone and Deploy the docker container from Step 2 in my guide."
+  },
+  {
+    "objectID": "posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-2-deploy-using-azure-app-service",
+    "href": "posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html#option-2-deploy-using-azure-app-service",
+    "title": "Deploy Your Own R Data Science Lab in the Cloud",
+    "section": "Option 2: Deploy using Azure App Service",
+    "text": "Option 2: Deploy using Azure App Service\nThe above is fine, but arguably if you are setting up a VM from scratch for development purposes I’m not sure what benefit there is from using a docker container. You may as well just directly install what you want and consider the VM a ‘container’.\nHowever, if you plan to make this available to other users in your organisation, or to adapt this guide for Shiny App development you may be interested in other features such as TLS/SSL security, scale up, advanced networking, continuous integration, continuous deployment, staging/production deployment slots etc. This represents a shift from development sandpit to ‘web app’. For this case, Azure App Service may be a lower hassle option. This is Microsoft’s enterprise grade, web app deployment managed service.\nIn the Virtual Machine model you are setting up compute infrastructure, deploying and running containers directly - then fiddling with the infrastructure layer for everything else. In App Service you deploy your custom docker container (here containing RStudio Server) to Azure Container Registry (kind of like DockerHub). Azure App Services then builds and serves your app from there - without you having to stand up and manage an Infra layer directly.\n\n\nCreate Azure Container Registry (ACR) (or some other Docker repository) using this help guide\nRun and test your container locally\nDeploy your local container to ACR using this help guide\nCreate a new web app in Azure App Services using this help guide\nConfiguration:\n\n\nI didn’t have to fiddle with ports, presumably it reads the exposed ports in the docker file and does this magically.\n\nFor custom environment variables like the RStudio Server password, I had to manually add this in the config section.\n\n\nand it worked just fine:"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Deploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",
+    "href": "posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",
+    "title": "Beware of Boundaries in Binominal Proportion Confidence Intervals",
+    "section": "",
+    "text": "Binomial proportion confidence intervals are often employed when attempting to perform tests for significance, or sample size calculations around sample measurements resulting from a Bernoulli process.\nThe typical choice when calculating binomial proportion confidence intervals is the asymptotic, or normally approximated ‘Wald’ interval where success probability is measured by:\n\\[\n\\hat{p} \\pm z_{\\alpha/2}\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}\n\\]\nIn many settings, such as marketing analytics or manufacturing processes the sample proportion is close to 0 or 1. Evaluating asymptotic confidence intervals near these boundary conditions will lead to underestimation of the error, and in some cases producing an interval outside \\([0, 1]\\).\nFortunately other methods exist, such as Wilson’s score interval, exact methods and Bayesian approaches. The recommendation here is to examine the probability coverage and explore alternative methods for sample size and CI calculation, especially when the parameter is near the boundary conditions, or in cases of very small n. \n\nlibrary(binom)\nlibrary(tidyverse)\n\nn &lt;- 50\np &lt;- c(0.01, 0.5, 0.99)\n\n\nx &lt;- purrr::map_df(p, .f =  ~binom.confint(x = n * .x, n = n, methods = 'all'))\n\n\nggplot(x, aes(colour = factor(x))) +\n  geom_point(aes(mean, method), show.legend = F) +\n  geom_errorbarh(aes(xmin = lower, xmax = upper, y = method), show.legend = F) +\n  geom_vline(xintercept =  c(0, 1), lty = 2, col = \"grey\") +\n  facet_wrap(~(x*2/100)) +\n  theme_bw() +\n  labs(title = \"A variety of binomial confidence interval methods for p = 0.01, 0.5 & 0.99\",\n       subtitle = \"Note unusual behaviour near 0.01 and 0.99\")\n\n\n\n\n\ncov &lt;- purrr::map_df(p, ~binom.coverage(.x, n, conf.level = 0.95, method = \"all\"))\n\n\nggplot(cov, aes(colour = factor(p))) +\n  geom_point(aes(coverage, method), show.legend = F) +\n  geom_vline(xintercept =  0.95, lty = 2) +\n  facet_wrap(~(p)) +\n  theme_bw() +\n  labs(title = \"Probability coverage for a variety of binomial confidence interval methods\",\n       subtitle = \"Reference line at 0.95 coverage\")\n\n\n\n\nA good discussion is contained in:\nWallis, Sean A. (2013). “Binomial confidence intervals and contingency tests: mathematical fundamentals and the evaluation of alternative methods” (PDF). Journal of Quantitative Linguistics. 20 (3): 178–208. doi:10.1080/09296174.2013.799918. S2CID 16741749.\nhttps://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science and Statistical Consulting",
+    "section": "",
+    "text": "All science, no hype."
   }
 ]

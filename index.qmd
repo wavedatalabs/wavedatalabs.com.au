@@ -1,9 +1,9 @@
 ---
 title: "Data Science and Statistical Consulting"
-subtitle: "All science, no hype." 
 about:
-  template: trestles
+  template: jolla
   image: img/logo.png
+  image-shape: rectangle
   links:
   - icon: cup-hot
     text: Meet
@@ -14,46 +14,15 @@ about:
 
 ---
 
-## Solutions  
-
-We help organisations solve complex problems using mathematics, statistics and data.
-
-:::: {.columns}
-
-::: {.column width="50%"}
-+ Statistical Modelling 
-+ Shiny App Development
-+ R Programming  
-+ Data Visualisation 
-:::
-
-::: {.column width="50%"}
-+ Geospatial Analysis  
-+ Time Series Forecasting
-+ Anomaly and Outlier Detection 
-+ A/B Testing and Experimentation
-:::
-
-::::
-
-<hr>
 
 
-## Contact  
+All science, no hype.
 
-Let's build something cool together!
-
-{{< fa envelope title="An envelope" size=2xl >}} [info@wavedatalabs.com.au](mailto:info@wavedatalabs.com.au)  
-
-{{< fa calendar-days size=2xl >}} [Book a meeting](https://calendly.com/wavedata)  
-
-<!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/wavedata', text: 'Schedule a time to chat', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
-<!-- Calendly badge widget end -->
-
-{{< fa location-dot size=2xl >}} UOW Innovation Campus, 239 Squires Way, North Wollongong NSW 2522
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8358.454786329336!2d150.899444!3d-34.402737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13191858c4e7fd%3A0x83aeda37060100da!2sUOW%20Innovation%20Campus!5e1!3m2!1sen!2sau!4v1682246634643!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<style>
+  body {
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>

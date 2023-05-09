@@ -1,0 +1,27 @@
+---
+title: "Data Science & Statistical Consulting"
+listing: "default"
+---
+
+We are available for short or long term consulting and contract opportunities in a range of fields. If you are interesting in working together [get in touch here.](../contact/index.qmd)
+
+	
+:::: {.columns}
+
+::: {.column width="50%"}
++ Statistical Modelling 
++ Shiny App Development
++ R Programming  
++ Data Visualisation 
+:::
+
+::: {.column width="50%"}
++ Geospatial Analysis  
++ Time Series Forecasting
++ Anomaly and Outlier Detection 
++ A/B Testing and Experimentation
+:::
+
+::::
+
+## Some of our work

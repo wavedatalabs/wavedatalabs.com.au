@@ -10,12 +10,31 @@ website:
   google-analytics: "UA-XXXXXXXX"
   navbar:
     logo: img/logo.png
+    right:
+      - icon: rss
+        href: posts/index.xml
     left:
       - href: index.qmd
-        text: ' '
+        text: Home
+      - href: services/index.qmd  
+        text: Services
+      - href: posts/index.qmd
+        text: Blog
+      - href: about/index.qmd
+        text: About
+      - href: contact/index.qmd
+        text: Contact
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/wavedatalabs/wavedatalabs.com.au
+          - text: Report a Bug
+            url:  https://github.com/wavedatalabs/wavedatalabs.com.au/issues
   page-footer:
+    background: "#FF000000"
     left: "Copyright 2023, Wave Data Labs Pty Ltd"
-
+  
 format:
   html:
     theme: cosmo
