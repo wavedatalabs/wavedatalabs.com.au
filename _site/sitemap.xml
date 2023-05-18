@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wavedatalabs.com.au/about/index.html</loc>
-    <lastmod>2023-05-10T05:34:41.472Z</lastmod>
+    <lastmod>2023-05-18T02:40:21.091Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/2023-03-17-building-your-own-r-data-science-lab/index.html</loc>
@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/index.html</loc>
-    <lastmod>2023-05-10T05:38:37.043Z</lastmod>
+    <lastmod>2023-05-18T02:39:33.804Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/contact/index.html</loc>
-    <lastmod>2023-05-10T05:38:05.911Z</lastmod>
+    <lastmod>2023-05-18T02:16:49.649Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/index.html</loc>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/index.html</loc>
-    <lastmod>2023-05-10T05:34:46.116Z</lastmod>
+    <lastmod>2023-05-18T03:07:35.480Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html</loc>
@@ -54,6 +54,10 @@
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/index.html</loc>
-    <lastmod>2023-05-10T05:38:06.607Z</lastmod>
+    <lastmod>2023-05-18T02:46:04.394Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/index.html</loc>
+    <lastmod>2023-05-18T03:07:32.684Z</lastmod>
   </url>
 </urlset>

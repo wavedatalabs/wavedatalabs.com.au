@@ -270,7 +270,7 @@
     "href": "posts/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Deploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
+    "text": "Random Number Generator Testing\n\n\nA tale of an unemployed ice-cream man, secret societies and a $10 radio\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nDeploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",
@@ -285,5 +285,40 @@
     "title": "Data Science and Statistical Consulting",
     "section": "",
     "text": "All science, no hype."
+  },
+  {
+    "objectID": "posts/2023-05-18-RNG-Testing/index.html",
+    "href": "posts/2023-05-18-RNG-Testing/index.html",
+    "title": "Random Number Generator Testing",
+    "section": "",
+    "text": "We had really interesting discussion with a company recently who needed a random number generator certified.\nRandomness, like time or space, is one of these deep concepts that are super hard to reason about. Despite this, it’s fairly common to see random number generators in practice. A casino will use one in their gaming software to randomise outcomes; A lottery or competition website will use one to pick winners; Scientists use them to run and controls simulations and every cryptographic application is powered by some form of randomness.\nFlash back to the 1980’s where down-on-his-luck unemployed ice cream man Michael Larsen cracked the (non-random) pattern in TV game show Big Board and took them for over $100k. Sadly it didnt end well for Larsen with Ponzi schemes, radio station challenges awry and a break and enter. But it goes to show what can happen if you don’t take randomness seriously."
+  },
+  {
+    "objectID": "posts/2023-05-18-RNG-Testing/index.html#ok-but-what-is-random-and-who-is-ramsey",
+    "href": "posts/2023-05-18-RNG-Testing/index.html#ok-but-what-is-random-and-who-is-ramsey",
+    "title": "Random Number Generator Testing",
+    "section": "Ok but what is random? And who is Ramsey?",
+    "text": "Ok but what is random? And who is Ramsey?\nRandomness is an actual or apparent lack of pattern, but it’s kind of hard to test and even its very nature is somewhat unclear. In 1903, a British mathematician called Frank Ramsey was born. Ramsey was a militant atheist, despite his brother going on become Archbishop of Canterbury. He went on to study mathematics and economics, becoming a student of famous economist John Maynard Keynes. Somehow he ended up also translating a German book of logical philosophy into English and joined a secret intellectual society just after the war. A minor discovery ended up blossoming into what is known as Ramsey theory, which is a theory in mathematical combinatorics showing that in any sufficiently large system, however disordered, there is always some order. This has had interesting (and conspiratorial) implications for whether there is even such a thing as ‘random’. Oh and by the way, all this before he died at age 26 after complications from liver disease likely caused by swimming in a river."
+  },
+  {
+    "objectID": "posts/2023-05-18-RNG-Testing/index.html#types-of-random-number-generators-rngs",
+    "href": "posts/2023-05-18-RNG-Testing/index.html#types-of-random-number-generators-rngs",
+    "title": "Random Number Generator Testing",
+    "section": "Types of Random Number Generators (RNGs)",
+    "text": "Types of Random Number Generators (RNGs)\nGenerally RNG’s can generate True random numbers or Pseudo random numbers. True RNGs generate random bits from natural stochastic sources like background radiation, quantum effects, atmospheric noise etc. Next time you are tempted to toss a coin, perhaps head over to random.org instead for some ‘true’ randomness. For a fun history lesson for how random.org got started with true RNGs from atmospheric noise using a cheap radio check out this post: https://www.random.org/history/\n\n\n\nEarly true RNG using atmospheric noise froma cheap radio\n\n\nPseudo-random numbers are generated using a ‘seed’ that deterministically produces numbers that look random, but can be entirely reproduced from the initial seed condition. This is often useful (and used by me all the time) when you need a random sample, but you need it to replicated exactly for scientific reproducibility purposes."
+  },
+  {
+    "objectID": "posts/2023-05-18-RNG-Testing/index.html#statistical-tests",
+    "href": "posts/2023-05-18-RNG-Testing/index.html#statistical-tests",
+    "title": "Random Number Generator Testing",
+    "section": "Statistical Tests",
+    "text": "Statistical Tests\nGiven randomness itself is hard to test, there are a number of statistical test suites that perform a battery of tests on a large sample of random numbers in order to test various aspects of randomness. One prominent test suite for cryptographic random bits is developed by NIST which uses 15 different statistical tests.\n\nThe Frequency (Monobit) Test\nFrequency Test within a Block\nThe Runs Test\nTests for the Longest-Run-of-Ones in a Block\nThe Binary Matrix Rank Test\nThe Discrete Fourier Transform (Spectral) Test\nThe Non-overlapping Template Matching Test\nThe Overlapping Template Matching Test\nMaurer’s “Universal Statistical” Test\nThe Linear Complexity Test\nThe Serial Test\nThe Approximate Entropy Test\nThe Cumulative Sums (Cusums) Test\nThe Random Excursions Test\nThe Random Excursions Variant Test\n\nSo, like much of the mathematics behind every day scenarios there is a fascinating history and deep technical and philosophical implications. Given what is on the line for organisations relying on randomness, its useful to engage a specialist to help run and interpret these test suites. And remember, if you get it wrong, someone unemployed ice-cream man is just waiting to swoop in and take advantage."
+  },
+  {
+    "objectID": "posts/2023-05-18-RNG-Testing/index.html#aside-ok-but-what-is-random-and-who-is-ramsey",
+    "href": "posts/2023-05-18-RNG-Testing/index.html#aside-ok-but-what-is-random-and-who-is-ramsey",
+    "title": "Random Number Generator Testing",
+    "section": "(Aside) Ok but what is random? And who is Ramsey?",
+    "text": "(Aside) Ok but what is random? And who is Ramsey?\nRandomness is an actual or apparent lack of pattern, but it’s kind of hard to test and even its very nature is somewhat unclear. In 1903, a British mathematician called Frank Ramsey was born. Ramsey was a militant atheist, despite his brother going on become Archbishop of Canterbury. He went on to study mathematics and economics, becoming a student of famous economist John Maynard Keynes. Somehow he ended up also translating a German book of logical philosophy into English and joined a secret intellectual society just after the war. A minor discovery ended up blossoming into what is known as Ramsey theory, which is a theory in mathematical combinatorics showing that in any sufficiently large system, however disordered, there is always some order. This has had interesting (and conspiratorial) implications for whether there is even such a thing as ‘random’. Oh and by the way, all this before he died at age 26 after complications from liver disease likely caused by swimming in a river."
   }
 ]

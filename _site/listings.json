@@ -10,6 +10,7 @@
   {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/2023-05-18-RNG-Testing/index.html",
       "/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
       "/posts/2023-03-17-building-your-own-r-data-science-lab/index.html",
       "/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",

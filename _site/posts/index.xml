@@ -12,6 +12,71 @@
 <generator>quarto-1.3.340</generator>
 <lastBuildDate>Sat, 25 Mar 2023 13:00:00 GMT</lastBuildDate>
 <item>
+  <title>Random Number Generator Testing</title>
+  <dc:creator>Dean Marchiori</dc:creator>
+  <link>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We had really interesting discussion with a company recently who needed a random number generator certified.</p>
+<p>Randomness, like time or space, is one of these deep concepts that are super hard to reason about. Despite this, it’s fairly common to see random number generators in practice. A casino will use one in their gaming software to randomise outcomes; A lottery or competition website will use one to pick winners; Scientists use them to run and controls simulations and every cryptographic application is powered by some form of randomness.</p>
+<p>Flash back to the 1980’s where down-on-his-luck unemployed ice cream man Michael Larsen cracked the (non-random) pattern in TV game show Big Board and took them for over $100k. Sadly it <a href="https://web.archive.org/web/20170712041017/http://www.rotten.com/library/conspiracy/press-your-luck/">didnt end well for Larsen</a> with Ponzi schemes, radio station challenges awry and a break and enter. But it goes to show what can happen if you don’t take randomness seriously.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/larsen.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Game show wizz and ice cream man Michael Larsen</figcaption>
+</figure>
+</div>
+<section id="aside-ok-but-what-is-random-and-who-is-ramsey" class="level2">
+<h2 class="anchored" data-anchor-id="aside-ok-but-what-is-random-and-who-is-ramsey">(Aside) Ok but what is random? And who is Ramsey?</h2>
+<p>Randomness is an actual or apparent lack of pattern, but it’s kind of hard to test and even its very nature is somewhat unclear. In 1903, a British mathematician called <a href="https://en.wikipedia.org/wiki/Frank_Ramsey_(mathematician)">Frank Ramsey</a> was born. Ramsey was a militant atheist, despite his brother going on become Archbishop of Canterbury. He went on to study mathematics and economics, becoming a student of famous economist John Maynard Keynes. Somehow he ended up also translating a German book of logical philosophy into English and joined a <a href="https://en.wikipedia.org/wiki/Cambridge_Apostles">secret intellectual society</a> just after the war. A minor discovery ended up blossoming into what is known as Ramsey theory, which is a theory in mathematical combinatorics showing that in any sufficiently large system, however disordered, there is always <em>some</em> order. This has had interesting (and conspiratorial) implications for whether there is even such a thing as ‘random’. Oh and by the way, all this before he died at age 26 after complications from liver disease likely caused by swimming in a river.</p>
+</section>
+<section id="types-of-random-number-generators-rngs" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-random-number-generators-rngs">Types of Random Number Generators (RNGs)</h2>
+<p>Generally RNG’s can generate <strong>True</strong> random numbers or <strong>Pseudo</strong> random numbers. True RNGs generate random bits from natural stochastic sources like background radiation, quantum effects, atmospheric noise etc. Next time you are tempted to toss a coin, perhaps head over to <a href="random.org">random.org</a> instead for some ‘true’ randomness. For a fun history lesson for how random.org got started with true RNGs from atmospheric noise using a cheap radio check out this post: <a href="https://www.random.org/history/">https://www.random.org/history/</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/random.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Early true RNG using atmospheric noise froma cheap radio</figcaption>
+</figure>
+</div>
+<p>Pseudo-random numbers are generated using a ‘seed’ that deterministically produces numbers that look random, but can be entirely reproduced from the initial seed condition. This is often useful (and used by me all the time) when you need a random sample, but you need it to replicated exactly for scientific reproducibility purposes.</p>
+</section>
+<section id="statistical-tests" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-tests">Statistical Tests</h2>
+<p>Given randomness itself is hard to test, there are a number of statistical test suites that perform a battery of tests on a large sample of random numbers in order to test various aspects of randomness. One prominent test suite for cryptographic random bits is developed by <a href="https://www.nist.gov/">NIST</a> which uses <a href="https://csrc.nist.gov/publications/detail/sp/800-22/rev-1a/final">15 different statistical tests.</a></p>
+<ol type="1">
+<li>The Frequency (Monobit) Test</li>
+<li>Frequency Test within a Block</li>
+<li>The Runs Test</li>
+<li>Tests for the Longest-Run-of-Ones in a Block</li>
+<li>The Binary Matrix Rank Test</li>
+<li>The Discrete Fourier Transform (Spectral) Test</li>
+<li>The Non-overlapping Template Matching Test</li>
+<li>The Overlapping Template Matching Test</li>
+<li>Maurer’s “Universal Statistical” Test</li>
+<li>The Linear Complexity Test</li>
+<li>The Serial Test</li>
+<li>The Approximate Entropy Test</li>
+<li>The Cumulative Sums (Cusums) Test</li>
+<li>The Random Excursions Test</li>
+<li>The Random Excursions Variant Test</li>
+</ol>
+<p>So, like much of the mathematics behind every day scenarios there is a fascinating history and deep technical and philosophical implications. Given what is on the line for organisations relying on randomness, its useful to engage a specialist to help run and interpret these test suites. And remember, if you get it wrong, someone unemployed ice-cream man is just waiting to swoop in and take advantage.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>statistics</category>
+  <guid>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/index.html</guid>
+  <pubDate>Sat, 25 Mar 2023 13:00:00 GMT</pubDate>
+  <media:content url="https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Deploy Your Own R Data Science Lab in the Cloud</title>
   <dc:creator>Dean Marchiori</dc:creator>
   <link>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</link>
