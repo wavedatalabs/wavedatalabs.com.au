@@ -270,7 +270,7 @@
     "href": "posts/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Random Number Generator Testing\n\n\nA tale of an unemployed ice-cream man, secret societies and a $10 radio\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nDeploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
+    "text": "Level up your Forecasting\n\n\nQuantify uncertaintly with distributional forecasts\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 29, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRandom Number Generator Testing\n\n\nA tale of an unemployed ice-cream man, secret societies and a $10 radio\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nDeploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",
@@ -320,5 +320,61 @@
     "title": "Random Number Generator Testing",
     "section": "(Aside) Ok but what is random? And who is Ramsey?",
     "text": "(Aside) Ok but what is random? And who is Ramsey?\nRandomness is an actual or apparent lack of pattern, but it’s kind of hard to test and even its very nature is somewhat unclear. In 1903, a British mathematician called Frank Ramsey was born. Ramsey was a militant atheist, but interestingly his brother went on to become Archbishop of Canterbury. He went on to study mathematics and economics, becoming a student of famous economist John Maynard Keynes. Somehow he ended up also translating a German book of logical philosophy into English and joined a secret intellectual society just after the war. A minor discovery of his ended up blossoming into what is known as Ramsey theory, which is a theory in mathematical combinatorics showing that in any sufficiently large system, however disordered, there is always some order. This has had interesting (and conspiratorial) implications for whether there is even such a thing as ‘random’. Oh and by the way, all this happened before he died at age 26 after complications from liver disease likely caused by swimming in a river."
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html",
+    "href": "posts/2023-05-29-forecasting/index.html",
+    "title": "Level up your Forecasting",
+    "section": "",
+    "text": "This is a time series data set of half-hourly electricity demand for Victoria, Australia 1. You may not care about electricity forecasting, but there is probably some similar time series in your organisation you do care about.\nWhat is the forecast demand for the next week?\nWho knows? I certainly don’t know, despite doing forecasting for a job.\nIn fact, anyone who tells you they do know (with certainty) is wrong."
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html#but-i-need-to-make-a-forecast-so-what-do-i-do",
+    "href": "posts/2023-05-29-forecasting/index.html#but-i-need-to-make-a-forecast-so-what-do-i-do",
+    "title": "Level up your Forecasting",
+    "section": "But I need to make a forecast, so what do I do?",
+    "text": "But I need to make a forecast, so what do I do?\nOften you have to come up with something. Finance needs an estimate of sales or budgets, or your manager needs something to take to the board. So you have to churn out some numbers. But what numbers?\nHere are two extremes:\n\nYou could ignore all historical data and just use the most recent data point as the most reliable forecast.\n\nYou could ignore any specific value and just take the average of everything.\n\n\n\n\n\n\nBoth are in the ballpark but they aren’t very squiggly like the real data. They clearly aren’t capturing the seasonality.\nYou could be lazy (clever) and just use the same time period from last week as your current forecast. It actually looks really good. But it’s just one, fixed realization of what could happen. Will it play out exactly like your forecast? Exactly like last week? Almost certainly not.\n\n\n\n\n\nLet’s simulate another way history could play out. (By statistically resampling the residuals in the training data)\n\n\n\n\n\nAnd another\n\n\n\n\n\nAnd 20 more:\n\n\n\n\n\nSo instead of blindly relying on one (kind of okay looking, but totally unrealistic) forecast, we now have a ‘fuzzy’ region of plausible values."
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html#aside",
+    "href": "posts/2023-05-29-forecasting/index.html#aside",
+    "title": "Level up your Forecasting",
+    "section": "Aside",
+    "text": "Aside\nIn practice a statistician will likely use a more sophisticated model than presented here. These models may take into account temperature and other factors but there will still be unexplained variance that will need to be quantified if you want a quality forecast produced.\nIf you or your organisation want to get serious about making proper forecasts and being proactive when making critical decisions - drop me a line, I can help."
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html#ok-but-why-bother",
+    "href": "posts/2023-05-29-forecasting/index.html#ok-but-why-bother",
+    "title": "Level up your Forecasting",
+    "section": "Ok but why bother?",
+    "text": "Ok but why bother?\nIf you don’t know with certainty what your forecast is going to be, then don’t just give one concrete number. It’s misleading.\n\nIts more important to know how uncertain your forecast is rather than what your forecast is.\n\nYou can still pull out a mean or point estimate but by delivering the whole story you are conveying not just what you think is likely to happen, but how certain you are about it.\nOften this can lead to more meaningful discussions. Perhaps it’s not the mean of your forecast distribution that you care about, its the extreme values. For example, If I was stress testing business cash flows and forecasting the cost of a maintenance activity, I’d be more interested in forecasting the 95% upper limit of forecast costs rather than the ‘expected’ cost.\nIn practice, you often don’t have to do any mathematical simulations. Proper time series forecasts have methods to calculate prediction intervals out of the box (see below)."
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html#feferences",
+    "href": "posts/2023-05-29-forecasting/index.html#feferences",
+    "title": "Level up your Forecasting",
+    "section": "Feferences",
+    "text": "Feferences\nO’Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022). tsibbledata: Diverse Datasets for ‘tsibble’. https://tsibbledata.tidyverts.org/, https://github.com/tidyverts/tsibbledata/."
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html#footnotes",
+    "href": "posts/2023-05-29-forecasting/index.html#footnotes",
+    "title": "Level up your Forecasting",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSource: Australian Energy Market Operator. tsibbledata R package.↩︎"
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html#spoiler",
+    "href": "posts/2023-05-29-forecasting/index.html#spoiler",
+    "title": "Level up your Forecasting",
+    "section": "Spoiler",
+    "text": "Spoiler\nWant to know what actually happened? Here it is in red.\n\n\n\n\n\nA huge criticism of providing probabilistic forecasts is that is seems like you are ‘hedging your bets’ and being evasive. The reality is, in our electricity example, it was just very hot and demand surged (much higher than even our 95% prediction interval). So if it’s realistic and plausible to see forecast values in these ranges (or even more extreme) - Why wouldn’t you want to include that information in your forecast??"
+  },
+  {
+    "objectID": "posts/2023-05-29-forecasting/index.html#references",
+    "href": "posts/2023-05-29-forecasting/index.html#references",
+    "title": "Level up your Forecasting",
+    "section": "References",
+    "text": "References\nO’Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022). tsibbledata: Diverse Datasets for ‘tsibble’. https://tsibbledata.tidyverts.org/, https://github.com/tidyverts/tsibbledata/."
   }
 ]
