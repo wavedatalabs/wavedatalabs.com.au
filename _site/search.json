@@ -270,7 +270,7 @@
     "href": "posts/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Level up your Forecasting\n\n\nQuantify uncertaintly with distributional forecasts\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 29, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRandom Number Generator Testing\n\n\nA tale of an unemployed ice-cream man, secret societies and a $10 radio\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nDeploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
+    "text": "Man vs Machine Learning\n\n\nI went head-to-head with Microsoft’s AutoML platform in a predictive modelling challenge.\n\n\n\n\nR\n\n\nAzure\n\n\n\n\n\n\n\n\n\n\n\nJun 2, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nLevel up your Forecasting\n\n\nQuantify uncertainty with distributional forecasts\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 29, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRandom Number Generator Testing\n\n\nA tale of an unemployed ice-cream man, secret societies and a $10 radio\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nDeploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",
@@ -376,5 +376,110 @@
     "title": "Level up your Forecasting",
     "section": "References",
     "text": "References\nO’Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022). tsibbledata: Diverse Datasets for ‘tsibble’. https://tsibbledata.tidyverts.org/, https://github.com/tidyverts/tsibbledata/."
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html",
+    "href": "posts/2023-06-02-man-vs-ml/index.html",
+    "title": "Man vs Machine Learning",
+    "section": "",
+    "text": "Over the past few years I have been doing more and more work in Microsoft Azure and the Azure Machine Learning Studio. One feature of the Azure ML studio is an automated machine learning feature. This is essentially a no-code UI that ‘empowers professional and nonprofessional data scientists to build machine learning models rapidly’ (emphasis mine).\nWhile many (including me) have leveled a fair amount of criticism towards such solutions, I thought it would be worth seeing what the fuss was about.\nCould I go head-to-head on the same predictive modelling challenge and compete with the might of Microsoft’s AutoML solution? Even worse, would I enjoy it? Even more worse, could I win??"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#task",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#task",
+    "title": "Man vs ML",
+    "section": "Task",
+    "text": "Task\nObjective: Create the most accurate time series forecast\nData: Half-hourly electricity demand for Victoria, Australia1\nMethod 1: Use Microsoft Azure’s Automatic ML product.\nMethod 2: Hand code a statistical time series model in R"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#references",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#references",
+    "title": "Man vs Machine Learning",
+    "section": "References",
+    "text": "References\nO’Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022). tsibbledata: Diverse Datasets for ‘tsibble’. https://tsibbledata.tidyverts.org/, https://github.com/tidyverts/tsibbledata/.\nHyndman, R.J., & Athanasopoulos, G. (2021) Forecasting: principles and practice, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on 2023-06-05."
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#footnotes",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#footnotes",
+    "title": "Man vs Machine Learning",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSource: Australian Energy Market Operator; tsibbledata R package↩︎\nYoung, P. C., Pedregal, D. J., & Tych, W. (1999). Dynamic harmonic regression. Journal of Forecasting, 18, 369–394. https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-131X(199911)18:6%3C369::AID-FOR748%3E3.0.CO;2-K↩︎\nHyndman, R.J., & Athanasopoulos, G. (2021) Forecasting: principles and practice, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on 2023-06-05.↩︎\nTaylor SJ, Letham B. 2017. Forecasting at scale. PeerJ Preprints 5:e3190v2 https://doi.org/10.7287/peerj.preprints.3190v2↩︎\nFan, S., & Hyndman, R. J. (2012). Short-term load forecasting based on a semi-parametric additive model. IEEE Transactions on Power Systems, 27(1), 134–141. https://ieeexplore.ieee.org/document/5985500↩︎\nHyndman, R. J., & Fan, S. (2010). Density forecasting for long-term peak electricity demand. IEEE Transactions on Power Systems, 25(2), 1142–1153. https://ieeexplore.ieee.org/document/5345698↩︎\nSource: Medicare Australia; tsibbledata R package↩︎\nHyndman, R. J., & Khandakar, Y. (2008). Automatic time series forecasting: The forecast package for R. Journal of Statistical Software, 27(1), 1–22. https://doi.org/10.18637/jss.v027.i03↩︎"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#method-1",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#method-1",
+    "title": "Man vs ML",
+    "section": "Method 1",
+    "text": "Method 1\n\nlist of models\n\nScreenshot\n\nperformance metrics hard to find\n\ncross validation\ntest set validation only in preview - hard to find results\n\noverstate the performance\n\nvery quick to set up, very slow to run\n\nData had to be pretty clean going in\n\ncost money, but cheap (get price, was it 0.2$ per hour)"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#method-2",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#method-2",
+    "title": "Man vs ML",
+    "section": "Method 2",
+    "text": "Method 2\n\ninitially used similar solution to hyndman\n\nDHR was slow, pivoted to prophet - is this any different? (in fact its used in automl)\n\ndidnt do any hyperparameter tuning\n\nkind of manually fiddled with some settings\n\nexplain choice of method (seaonality, dummy vars, harmonic terms etc)\n\nis prophet just another type of automl\n\nits semi-automated - similar API To DHR\nHyndman papers - learnings"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#results",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#results",
+    "title": "Man vs Machine Learning",
+    "section": "Results",
+    "text": "Results\nSo who won?\nThe AutoML platform did :( , but only just. Below is the comparison of RMSE and MAPE. The AutoML is red, my predictions are in blue. I stuffed up over Christmas a bit, which admittedly is a tricky hold-out month for testing.\n\n\n\nMethod\nMetric\nValue\n\n\n\n\nAzure AutoML\nRMSE\n213\n\n\nAzure AutoML\nMAPE\n3.56\n\n\nMe\nRMSE\n274\n\n\nMe\nMAPE\n4.96"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#discussion",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#discussion",
+    "title": "Man vs Machine Learning",
+    "section": "Discussion",
+    "text": "Discussion\nSo overall it was pretty close, but in terms of pure predictive performance, the AutoML platform did pip me at the post. Admittedly, the solution I arrived at was probably more of an ML solution than a ‘classical’ time series method given it is still an automated algorithm. If I had more time and patience I probably could have pursued a more complex regression model. In fact in Forecasting: Principles and Practice, the authors also cite the performance of a straight Dynamic Harmonic Regression is limited, however they go on to propose other innovative approaches56, including splitting the problem into separate models for each 30min period and using regression splines to better capture exogenous effects. So it can be done, but not without a huge amount of effort."
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#automl-solution",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#automl-solution",
+    "title": "Man vs Machine Learning",
+    "section": "AutoML solution",
+    "text": "AutoML solution\nThe AutoML platform again used a Voting Ensemble, churned out in 43 minutes, but this time using:\n\nProphetModel (it must have copied me from last round ;))\n\nExponential Smoothing"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#my-solution",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#my-solution",
+    "title": "Man vs Machine Learning",
+    "section": "My solution",
+    "text": "My solution\nGiven the multiplicative process here, I modeled the log transformed data. (I did try a more generalized Box-Cox transformation, but got better performance with a straight natural log transform). I tried an ARIMA model, using model selection via the Hyndman-Khandakar algorithm8, which resulted in a ARIMA(2,0,1)(1,1,2)[12] w/ drift&gt;."
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#results-1",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#results-1",
+    "title": "Man vs Machine Learning",
+    "section": "Results",
+    "text": "Results\nYay! I won this round. Quite easily.\n\n\n\nMethod\nMetric\nValue\n\n\n\n\nAzure AutoML\nRMSE\n2.43\n\n\nAzure AutoML\nMAPE\n9.22\n\n\nMe\nRMSE\n1.63\n\n\nMe\nMAPE\n7.23"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#method-1-azure-automl",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#method-1-azure-automl",
+    "title": "Man vs Machine Learning",
+    "section": "Method 1: Azure AutoML",
+    "text": "Method 1: Azure AutoML\nThe process to set up a new AutoML job was very easy and assumes you are working under somewhat sanitized conditions (which I was in this case).\n\nOnce you kick it off, it chugged away for an hour and 33 minutes. To my horror, I realized it takes the ‘kitchen sink’ approach and fits a suite of 41 (!) different machine learning models at the training data. Hyperparameter tuning is done by constructing a validation set using K-Fold cross validation.\nVideo\nThe best performing model is then selected and then predictions are run on the test set. It’s a little concerning that Test set evaluation is only in ‘Preview’ mode. It was also very confusing to dig out the results on the test set. Most of the metrics prominently displayed are overly confident in-sample accuracy results.\nThe winning model in my case was a ‘Voting Ensemble’ of three models\n\nMaxAbsScaler, ExtremeRandomTrees\nStandardScalerWrapper, XGBoostRegressor\n\nStandardScalerWrapper, LightGBM\n\nOverall the process was very easy and user friendly. It look a long time to train, but I didn’t have to think about anything - at all (which is usually time consuming) so overall it was a quick solution. I trained the model on a Standard_DS11_v2 (2 cores, 14 GB RAM, 28 GB disk) compute instance which costs $0.2 per hour. So it cost money, but not much.\nPerformance evaluation to follow below…"
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#method-2-manual-time-series-model-in-r",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#method-2-manual-time-series-model-in-r",
+    "title": "Man vs Machine Learning",
+    "section": "Method 2: Manual Time Series Model in R",
+    "text": "Method 2: Manual Time Series Model in R\nThe process for doing this myself involved much more thought and brain-effort. Here are some notes.\nThe data set is quite complicated as its sub-daily and has (probably) three seasonal periods (daily, weekly, yearly). There was also maybe some trend and outliers to deal with. The data set also contained covariates such as Temperature and Holiday indicators.\nDue to the seasonal complexity many traditional statistical methods were not appropriate like straight ARIMA (autoregressive integrated moving average) and ETS (exponential smoothing). While STL (Seasonal and Trend decomposition using Loess) can handle multiple seasonal periods I wanted a method to handle the covariates (like Temperature and Holidays). My next step was to think of Time Series Linear Regression models. However, accounting for yearly seasonality with 30min data meant fitting 17,520 (2 * 24 * 365) parameters just for this seasonal period. Which seemed excessive.\nFor longer, multiple-seasonal periods, using Fourier terms can be a good idea. Here a smaller number of terms in a fourier series can be estimated to approximate a more complex function. This type of Dynamic Harmonic Regression2 can also handle exogenous covariates and we can even fit the model with ARIMA errors to account for the short term dynamics of time series data.\nIn fact, this very approach was outlined in the excellent Forecasting: Principles and Practice3 using this very same example data set. I decided to borrow (steal) the ideas of creating a piece-wise linear trend for temperature. I also went a bit crazy with encoding specific holiday dummy variables and some other tweaks.\nOverall I found this method slow to fit, and not overly performant. I decided next to try fitting a Prophet4 model. Prophet is an open-source automated algorithm for time series forecasting developed by Facebook. It uses a Bayesian framework to fit complex, non-linear, piece-wise regression models. For complex time series data, it provides a decent, fast framework including exogenous variables, holiday and seasonal effects. I didn’t do any principled hyperparameter tuning, but I did fiddle around with the model a bit."
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#with-thanks",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#with-thanks",
+    "title": "Man vs Machine Learning",
+    "section": "With thanks",
+    "text": "With thanks\nThanks to the Tidyverts team https://tidyverts.org/. The new an improved time series stack in R makes all this so easy."
+  },
+  {
+    "objectID": "posts/2023-06-02-man-vs-ml/index.html#other",
+    "href": "posts/2023-06-02-man-vs-ml/index.html#other",
+    "title": "Man vs Machine Learning",
+    "section": "Other",
+    "text": "Other\nThanks to the Tidyverts team https://tidyverts.org/. The new an improved time series stack in R makes all this so easy.\nNote: None of this was super-rigorous, and I certainly tilted the board in my favour here and there. It was just fun and a chance to play around with a tool that I have previously avoided for no real reason."
   }
 ]

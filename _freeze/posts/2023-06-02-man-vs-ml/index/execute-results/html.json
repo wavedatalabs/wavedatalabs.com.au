@@ -1,0 +1,14 @@
+{
+  "hash": "ee2b20c91025f28e76934dc039bcad84",
+  "result": {
+    "markdown": "---\ntitle: \"Man vs ML\"  \nsubtitle: \"I went head-to-head with Microsofts AutoML platform\"\nauthor: \"Dean Marchiori\"\ndate: \"2023-06-02\"\ncategories: [R, Azure]\nimage: \"featured.png\"\neditor_options: \n  chunk_output_type: console\nexecute: \n  echo: false\n  warning: false \n  message: false\n---\n\n\nMOTIVATION\n\n## Task  \n\nObjective: Create the most accurate time series forecast  \n\nData: Half-hourly electricity demand for Victoria, Australia[^1]\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\nTo cite package 'tsibbledata' in publications use:\n\n  O'Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022). _tsibbledata:\n  Diverse Datasets for 'tsibble'_. https://tsibbledata.tidyverts.org/,\n  https://github.com/tidyverts/tsibbledata/.\n\nA BibTeX entry for LaTeX users is\n\n  @Manual{,\n    title = {tsibbledata: Diverse Datasets for 'tsibble'},\n    author = {Mitchell O'Hara-Wild and Rob Hyndman and Earo Wang and Rakshitha Godahewa},\n    year = {2022},\n    note = {https://tsibbledata.tidyverts.org/,\nhttps://github.com/tidyverts/tsibbledata/},\n  }\n```\n:::\n:::\n\n\n## References  \n\nO'Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022). _tsibbledata:\nDiverse Datasets for 'tsibble'_. https://tsibbledata.tidyverts.org/,\nhttps://github.com/tidyverts/tsibbledata/.\n\n[^1]: Source: Australian Energy Market Operator; *tsibbledata* R package",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
