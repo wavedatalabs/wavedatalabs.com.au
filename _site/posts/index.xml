@@ -10,7 +10,58 @@
 <atom:link href="https://wavedatalabs.com.au/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science and Statistical Consulting</description>
 <generator>quarto-1.3.340</generator>
-<lastBuildDate>Thu, 01 Jun 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 25 Jun 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>Why your data science projects are failing</title>
+  <dc:creator>Dean Marchiori</dc:creator>
+  <link>https://wavedatalabs.com.au/posts/2023-06-26-failure/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p>The most undervalued skill in delivering value with data science teams is picking projects that are likely to succeed. There is no shortcut - it takes years of hard earned experience.</p>
+</blockquote>
+<p>A number that seems to be floating around is 80% of data science projects will FAIL. Ouch.</p>
+<p>Many of these types of numbers are ‘predictions’ from consultancies who stand to benefit from making big claims.</p>
+<blockquote class="blockquote">
+<p>“Through 2022, only 20% of analytic insights will deliver business outcomes.”</p>
+</blockquote>
+<p><a href="https://blogs.gartner.com/andrew_white/2019/01/03/our-top-data-and-analytics-predicts-for-2019/">https://blogs.gartner.com/andrew_white/2019/01/03/our-top-data-and-analytics-predicts-for-2019/</a></p>
+<p>Cited reasons to fix this include:</p>
+<ul>
+<li>Getting better data</li>
+<li>Getting a Data strategy and governance framework</li>
+<li>Hiring smarter people</li>
+<li>Something..something DataOps, AI</li>
+</ul>
+<p>These are all lovely ideas, but moving the lever on these are often impossible or impractical.</p>
+<section id="so-what-are-some-easy-things-you-can-you-do" class="level2">
+<h2 class="anchored" data-anchor-id="so-what-are-some-easy-things-you-can-you-do">So what are some easy things you can you do?</h2>
+<ol type="1">
+<li>Change your mindset (and how you run projects)</li>
+</ol>
+<p>Data analytics is an exploratory and scientific endeavour that isn’t supposed to succeed every time. Just like not all lab experiments yield positive results. Instead of lamenting failures, develop a mindset of innovation and agile working where new ideas are prototyped and investment in R&amp;D promoted but capped and balanced.</p>
+<ol start="2" type="1">
+<li>Pick better projects</li>
+</ol>
+<p>A question I get all the time, is how to get started with data science projects in an established business. Often there is a disconnect between those doing the work and those deciding what to do. The most undervalued skill in delivering value with data science teams is picking projects that are likely to succeed. There is no shortcut - it takes years of hard earned experience and it requires a balance of hands-on technical skills, with commercial awareness.</p>
+</section>
+<section id="how-can-we-help" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-we-help">How can we help?</h2>
+<p>We have a dedicated program for businesses looking to get started or deepen their data analytics journey. We can help change your attitude and pick better projects.</p>
+<p><a href="https://www.wavedatalabs.com.au/services/2023-06-20-dds/">Book in a Demo</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>analysis</category>
+  <guid>https://wavedatalabs.com.au/posts/2023-06-26-failure/index.html</guid>
+  <pubDate>Sun, 25 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://wavedatalabs.com.au/posts/2023-06-26-failure/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Man vs Machine Learning</title>
   <dc:creator>Dean Marchiori</dc:creator>

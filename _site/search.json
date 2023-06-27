@@ -133,11 +133,39 @@
     "text": "Why choose us?\nWe bring together a team of seasoned data scientists, industry experts, and consultants who will guide you every step of the way, ensuring your success."
   },
   {
+    "objectID": "services/2023-06-20-dds/index.html#book-a-demo",
+    "href": "services/2023-06-20-dds/index.html#book-a-demo",
+    "title": "Data Science Discovery and Design Sprint",
+    "section": "Book a demo",
+    "text": "Book a demo"
+  },
+  {
     "objectID": "contact/index.html",
     "href": "contact/index.html",
     "title": "Contact",
     "section": "",
     "text": "Let’s build something cool together!\n info@wavedatalabs.com.au\n Book a meeting\n\n\n\n\n\n UOW Innovation Campus, 239 Squires Way, North Wollongong NSW 2522"
+  },
+  {
+    "objectID": "posts/2023-06-26-failure/index.html",
+    "href": "posts/2023-06-26-failure/index.html",
+    "title": "Why your data science projects are failing",
+    "section": "",
+    "text": "The most undervalued skill in delivering value with data science teams is picking projects that are likely to succeed. There is no shortcut - it takes years of hard earned experience.\nA number that seems to be floating around is 80% of data science projects will FAIL. Ouch.\nMany of these types of numbers are ‘predictions’ from consultancies who stand to benefit from making big claims.\nhttps://blogs.gartner.com/andrew_white/2019/01/03/our-top-data-and-analytics-predicts-for-2019/\nCited reasons to fix this include:\nThese are all lovely ideas, but moving the lever on these are often impossible or impractical."
+  },
+  {
+    "objectID": "posts/2023-06-26-failure/index.html#so-what-are-some-easy-things-you-can-you-do",
+    "href": "posts/2023-06-26-failure/index.html#so-what-are-some-easy-things-you-can-you-do",
+    "title": "Why your data science projects are failing",
+    "section": "So what are some easy things you can you do?",
+    "text": "So what are some easy things you can you do?\n\nChange your mindset (and how you run projects)\n\nData analytics is an exploratory and scientific endeavour that isn’t supposed to succeed every time. Just like not all lab experiments yield positive results. Instead of lamenting failures, develop a mindset of innovation and agile working where new ideas are prototyped and investment in R&D promoted but capped and balanced.\n\nPick better projects\n\nA question I get all the time, is how to get started with data science projects in an established business. Often there is a disconnect between those doing the work and those deciding what to do. The most undervalued skill in delivering value with data science teams is picking projects that are likely to succeed. There is no shortcut - it takes years of hard earned experience and it requires a balance of hands-on technical skills, with commercial awareness."
+  },
+  {
+    "objectID": "posts/2023-06-26-failure/index.html#how-can-we-help",
+    "href": "posts/2023-06-26-failure/index.html#how-can-we-help",
+    "title": "Why your data science projects are failing",
+    "section": "How can we help?",
+    "text": "How can we help?\nWe have a dedicated program for businesses looking to get started or deepen their data analytics journey. We can help change your attitude and pick better projects.\nBook in a Demo"
   },
   {
     "objectID": "posts/2023-05-18-RNG-Testing/index.html",
@@ -452,7 +480,7 @@
     "href": "posts/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Man vs Machine Learning\n\n\nI went head-to-head with Microsoft’s AutoML platform in a predictive modelling challenge.\n\n\n\n\nR\n\n\nAzure\n\n\n\n\n\n\n\n\n\n\n\nJun 2, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nLevel up your Forecasting\n\n\nQuantify uncertainty with distributional forecasts\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 29, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRandom Number Generator Testing\n\n\nA tale of an unemployed ice-cream man, secret societies and a $10 radio\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nDeploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
+    "text": "Why your data science projects are failing\n\n\nand what you can’t do about it\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nMan vs Machine Learning\n\n\nI went head-to-head with Microsoft’s AutoML platform in a predictive modelling challenge.\n\n\n\n\nR\n\n\nAzure\n\n\n\n\n\n\n\n\n\n\n\nJun 2, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nLevel up your Forecasting\n\n\nQuantify uncertainty with distributional forecasts\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 29, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRandom Number Generator Testing\n\n\nA tale of an unemployed ice-cream man, secret societies and a $10 radio\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMay 19, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nDeploy Your Own R Data Science Lab in the Cloud\n\n\n\n\n\n\n\nR\n\n\nazure\n\n\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBuilding your own R Data Science Lab in the browser\n\n\n\n\n\n\n\nR\n\n\ndocker\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nBeware of Boundaries in Binominal Proportion Confidence Intervals\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nWhen should you be using the Hypergeometric distribution in practice?\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nPrediction Intervals for Linear Mixed Effects Models\n\n\n\n\n\n\n\nR\n\n\nstatistics\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nDean Marchiori\n\n\n\n\n\n\n  \n\n\n\n\nRunning Shiny in a Docker container\n\n\n\n\n\n\n\nR\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 17, 2022\n\n\nDean Marchiori\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",
@@ -467,12 +495,5 @@
     "title": "Data Science and Statistical Consulting",
     "section": "",
     "text": "All science, no hype."
-  },
-  {
-    "objectID": "services/2023-06-20-dds/index.html#book-a-demo",
-    "href": "services/2023-06-20-dds/index.html#book-a-demo",
-    "title": "Data Science Discovery and Design Sprint",
-    "section": "Book a demo",
-    "text": "Book a demo"
   }
 ]
