@@ -1,9 +1,6 @@
 ---
 title: "Contact"
-format:
-  html:
-    include-in-header:
-      - file: gtm.html
+format: html
 ---
 
 Let's build something cool together!

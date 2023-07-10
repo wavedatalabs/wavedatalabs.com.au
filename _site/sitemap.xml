@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wavedatalabs.com.au/about/index.html</loc>
-    <lastmod>2023-06-27T05:19:08.234Z</lastmod>
+    <lastmod>2023-07-10T03:11:22.683Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/2023-03-17-building-your-own-r-data-science-lab/index.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/index.html</loc>
-    <lastmod>2023-06-27T05:19:09.902Z</lastmod>
+    <lastmod>2023-07-10T03:11:21.379Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/2023-06-20-dds/index.html</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/contact/index.html</loc>
-    <lastmod>2023-07-10T01:47:35.006Z</lastmod>
+    <lastmod>2023-07-10T03:17:14.187Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-06-26-failure/index.html</loc>
@@ -74,6 +74,10 @@
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/index.html</loc>
-    <lastmod>2023-06-27T05:19:28.774Z</lastmod>
+    <lastmod>2023-07-10T03:17:06.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/privacy.html</loc>
+    <lastmod>2023-07-10T03:24:26.372Z</lastmod>
   </url>
 </urlset>

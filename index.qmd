@@ -11,10 +11,7 @@ about:
   - icon: envelope
     text: Email
     href: mailto:info@wavedatalabs.com.au
-format:
-  html:
-    include-in-header:
-      - file: gtm.html
+format: html
 
 ---
 

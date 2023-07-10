@@ -33,7 +33,11 @@ website:
             url:  https://github.com/wavedatalabs/wavedatalabs.com.au/issues
   page-footer:
     background: "#FF000000"
-    left: "Copyright 2023, Wave Data Labs Pty Ltd"
+    left:
+      - text: "Privacy Policy"
+        href: privacy.qmd  
+      - text: "Copyright 2023, Wave Data Labs Pty Ltd."
+        href: index.qmd
   
 format:
   html:
