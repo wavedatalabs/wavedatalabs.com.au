@@ -13,8 +13,6 @@ execute:
   message: false
 ---
 
-With recent advances in AI technology, anyone can be a data scientist right? Just ask Chat-GPT.
-
 If you have hired a data scientist or run a team of data people, you may not be an expert yourself (that's why you hired an expert, right?). So how do you know you are receiving a quality predictive model and not some BS that was thrown carelessly at a [black-box](https://en.wikipedia.org/wiki/Black_box) machine learning model.
 
 The consequences of poorly built statistical models are not trivial. In 2015, Amazon realized its 'AI recruiting tool' didn't like women[^1]. In the US, facial recognition models used by police were found to have biases that more commonly misidentified underrepresented communities.[^2]
