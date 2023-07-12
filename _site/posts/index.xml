@@ -10,7 +10,90 @@
 <atom:link href="https://wavedatalabs.com.au/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science and Statistical Consulting</description>
 <generator>quarto-1.3.340</generator>
-<lastBuildDate>Sun, 25 Jun 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 11 Jul 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>Three Questions to Ask Your Data Scientist</title>
+  <dc:creator>Dean Marchiori</dc:creator>
+  <link>https://wavedatalabs.com.au/posts/2023-07-12-three=questions/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>With recent advances in AI technology, anyone can be a data scientist right? Just ask Chat-GPT.</p>
+<p>If you have hired a data scientist or run a team of data people, you may not be an expert yourself (that’s why you hired an expert, right?). So how do you know you are receiving a quality predictive model and not some BS that was thrown carelessly at a <a href="https://en.wikipedia.org/wiki/Black_box">black-box</a> machine learning model.</p>
+<p>The consequences of poorly built statistical models are not trivial. In 2015, Amazon realized its ‘AI recruiting tool’ didn’t like women<sup>1</sup>. In the US, facial recognition models used by police were found to have biases that more commonly misidentified underrepresented communities.<sup>2</sup></p>
+<p>So what can you do about it?</p>
+<section id="three-questions-you-can-ask-your-data-scientist" class="level2">
+<h2 class="anchored" data-anchor-id="three-questions-you-can-ask-your-data-scientist">Three questions you can ask your data scientist</h2>
+<section id="how-could-the-model-be-unfair" class="level3">
+<h3 class="anchored" data-anchor-id="how-could-the-model-be-unfair">1. How could the model be unfair?</h3>
+<ul>
+<li>What training data was used, and how was this collected?</li>
+<li>Could certain sub-populations be over or under-represented in this data?</li>
+<li>Have customer details been anonymised?<br>
+</li>
+<li>Are sensitive features used in the model training (race, religion, gender, political preferences).</li>
+</ul>
+<p>Algorithmic fairness and biases are already huge issues which are only getting worse. Further reading on this topic is covered by Cathy O’Neil’s excellent book <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em><sup>3</sup>.</p>
+</section>
+<section id="what-assumptions-does-the-model-make-and-how-have-these-been-tested" class="level3">
+<h3 class="anchored" data-anchor-id="what-assumptions-does-the-model-make-and-how-have-these-been-tested">2. What assumptions does the model make, and how have these been tested?</h3>
+<p>All statistical models have assumptions that are made in order for the math to work out. Models are intended to be simplified representations of reality, deliberately so statisticians can exploit properties like the <a href="https://en.wikipedia.org/wiki/Central_limit_theorem">Central Limit Theorem</a> to help make inferences. For example the assumptions behind a simple linear regression include:</p>
+<ol type="a">
+<li>The response variable can be expressed as a linear combination of the predictors.<br>
+</li>
+<li>The variance of the error terms is homoscedastic (has constant variance).<br>
+</li>
+<li>The errors in the response are independent.</li>
+</ol>
+<p>In many cases these can be checked using standard diagnostics tests and plots. However in most cases it requires more in depth domain knowledge and context.</p>
+</section>
+<section id="how-accurate-is-the-model" class="level3">
+<h3 class="anchored" data-anchor-id="how-accurate-is-the-model">3. How accurate is the model?</h3>
+<p>Ever been told a model is 99% accurate? I’d be very worried if you had. Be skeptical of very high performance.</p>
+<p><a href="https://xkcd.com/2236/">xkcd.com</a> highlight this well with their ‘Is it Christmas?’ predictive model.</p>
+<p><img src="https://wavedatalabs.com.au/posts/2023-07-12-three=questions/https:/imgs.xkcd.com/comics/is_it_christmas.png" class="img-fluid"></p>
+<ul>
+<li><p>On what data has the model been tested? Is it a completely independent test set? Was there any leakage from the training data? Was the feature engineering done before or after the training/test split (hint: it usually needs to be after).</p></li>
+<li><p>If your model is a binary classification model, you should know what the ‘null model’ and whether it outperforms this.</p></li>
+<li><p><em>Accuracy</em> is just one measure and is the proportion of correct classifications (both positive and negative class) but you may have different tolerance for misclassifications of each class. For example, you might be predicting the presence of a disease from a test. If you make a false positive, will the risk of side-effects or cost outweigh the risk the making a false negative and having the patient get sicker or die? It’s tricky.</p></li>
+<li><p>In addition to accuracy, ask for the following metrics, along with an explanation of what they mean.</p>
+<ul>
+<li>Sensitivity / Recall</li>
+<li>Specificity</li>
+<li>Precision / Positive Predictive Value</li>
+<li>Negative Predictive Value</li>
+<li>ROC AUC</li>
+</ul></li>
+<li><p>Ask for a <a href="https://en.wikipedia.org/wiki/Confusion_matrix">confusion matrix</a>. All of the above measures (except ROC) can be calculated from the confusion matrix. Despite its name, it will be instantly clear where the model is working well versus not.</p></li>
+<li><p>Ask what cut-off or threshold was used to make the predicted classifications. Many classification models return conditional class probabilities, which need to be converted into labels such as (Yes/No, Cancer/Not Cancer, Churn/Not Churn). A default value is to use a 0.5 probability for the crisp cutoff, but it’s subjective and depends on the desired trade off in sensitivity / specificity as well as other complicated factors like training class imbalance.</p></li>
+</ul>
+</section>
+</section>
+<section id="what-now" class="level2">
+<h2 class="anchored" data-anchor-id="what-now">What now?</h2>
+<p>If you don’t get good answers to these questions, you should probably give me a call.</p>
+<p>Have I missed something? Let me know!</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G↩︎</p></li>
+<li id="fn2"><p>https://www.nytimes.com/2019/07/08/us/detroit-facial-recognition-cameras.html↩︎</p></li>
+<li id="fn3"><p>https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>analysis</category>
+  <category>statistics</category>
+  <guid>https://wavedatalabs.com.au/posts/2023-07-12-three=questions/index.html</guid>
+  <pubDate>Tue, 11 Jul 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://wavedatalabs.com.au/posts/2023-07-12-three=questions/featured.png" medium="image" type="image/png" height="136" width="144"/>
+</item>
 <item>
   <title>Why your data science projects are failing</title>
   <dc:creator>Dean Marchiori</dc:creator>
