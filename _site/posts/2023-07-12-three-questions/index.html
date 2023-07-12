@@ -214,7 +214,7 @@ ga('send', {
 </li>
 <li>Are sensitive features used in the model training (race, religion, gender, political preferences).</li>
 </ul>
-<p>Algorithmic fairness and biases are already huge issues which are only getting worse. Further reading on this topic is covered by Cathy O’Neil’s excellent book <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
+<p>Algorithmic unfairness and biases are already huge issues which are only getting worse. Further reading on this topic is covered by Cathy O’Neil’s excellent book <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
 </section>
 <section id="what-assumptions-does-the-model-make-and-how-have-these-been-tested" class="level3">
 <h3 class="anchored" data-anchor-id="what-assumptions-does-the-model-make-and-how-have-these-been-tested">2. What assumptions does the model make, and how have these been tested?</h3>
@@ -235,9 +235,9 @@ ga('send', {
 <p><img src="https://imgs.xkcd.com/comics/is_it_christmas.png" class="img-fluid"></p>
 <ul>
 <li><p>On what data has the model been tested? Is it a completely independent test set? Was there any leakage from the training data? Was the feature engineering done before or after the training/test split (hint: it usually needs to be after).</p></li>
-<li><p>If your model is a binary classification model, you should know what the ‘null model’ and whether it outperforms this.</p></li>
+<li><p>If your model is a binary classification model, you should know what the ‘null model’ is and whether it outperforms this.</p></li>
 <li><p><em>Accuracy</em> is just one measure and is the proportion of correct classifications (both positive and negative class) but you may have different tolerance for misclassifications of each class. For example, you might be predicting the presence of a disease from a test. If you make a false positive, will the risk of side-effects or cost outweigh the risk the making a false negative and having the patient get sicker or die? It’s tricky.</p></li>
-<li><p>In addition to accuracy, ask for the following metrics, along with an explanation of what they mean.</p>
+<li><p>In addition to accuracy ask for the following metrics, along with an explanation of what they mean.</p>
 <ul>
 <li>Sensitivity / Recall</li>
 <li>Specificity</li>
