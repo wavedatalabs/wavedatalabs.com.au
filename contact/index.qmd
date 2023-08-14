@@ -18,4 +18,4 @@ Let's build something cool together!
 {{< fa location-dot size=2xl >}} Ground Floor, Enterprise 1, Innovation Campus, Squires Way, North Wollongong NSW 2500
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8358.454786329336!2d150.899444!3d-34.402737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13191858c4e7fd%3A0x83aeda37060100da!2sUOW%20Innovation%20Campus!5e1!3m2!1sen!2sau!4v1682246634643!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13167.742190559353!2d150.8980983!3d-34.4029841!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25b6bae46e29269d%3A0xe710ddb58561089b!2sWave%20Data%20Labs!5e0!3m2!1sen!2sau!4v1691987084501!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
