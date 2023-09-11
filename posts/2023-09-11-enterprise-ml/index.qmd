@@ -4,7 +4,7 @@ subtitle: "5 things you need to know before using Azure ML Studio"
 author: "Dean Marchiori"
 date: "2023-09-11"
 categories: [analysis, statistics]
-image: "featured.jpg"
+image: "featured.png"
 editor_options: 
   chunk_output_type: console
 execute: 
@@ -20,7 +20,7 @@ These are tips focused on enterprise-level organisations wanting to implement Mi
 Machine Learning studio](https://azure.microsoft.com/en-au/products/machine-learning). But I'm sure the content translates well to other settings.  
 
 
-![](featured.jpg) 
+![](featured.png) 
 
 
 
