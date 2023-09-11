@@ -11,8 +11,6 @@ website:
   navbar:
     logo: img/logo.png
     right:
-      - href: consult/index.qmd
-        text: SCHEDULE A CONSULTATION
       - icon: rss
         href: posts/index.xml
     left:

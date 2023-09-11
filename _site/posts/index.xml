@@ -10,17 +10,79 @@
 <atom:link href="https://wavedatalabs.com.au/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science and Statistical Consulting</description>
 <generator>quarto-1.3.340</generator>
-<lastBuildDate>Tue, 11 Jul 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 10 Sep 2023 14:00:00 GMT</lastBuildDate>
 <item>
-  <title>Three Questions to Ask Your Data Scientist</title>
+  <title>Deploying Enterprise Scale AI &amp; Machine Learning Infrastucture</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-07-12-three=questions/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>With recent advances in AI technology, anyone can be a data scientist right? Just ask Chat-GPT.</p>
+<p>Are you about to scale up your data analytics team to do more AI/ML work? Here are 5 things you need to know up front to make your life easier.</p>
+<p>These are tips focused on enterprise-level organisations wanting to implement Microsoft’s <a href="https://azure.microsoft.com/en-au/products/machine-learning">Azure Machine Learning studio</a>. But I’m sure the content translates well to other settings.</p>
+<p><img src="https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/featured.jpg" class="img-fluid"></p>
+<section id="people---process---platform-pick-any-three" class="level2">
+<h2 class="anchored" data-anchor-id="people---process---platform-pick-any-three">1) People - Process - Platform (pick any three)</h2>
+<p>Effective analytics and machine learning requires coordination of <strong>People, Process &amp; Platform</strong>. But do you need all three?</p>
+<p>Yes. But you don’t need all three to get started.</p>
+<p>Most Data Scientists will not care about and will not identify as owning MLOps. They want to lead experimentation and innovation, not building production-grade ML pipelines. You will either have to:</p>
+<ol type="a">
+<li>Find an internal champion to lead this and train others.</li>
+<li>Hire an ML engineer if you have enough work to keep them busy (A recent ML Engineer job ad I saw was around $650k, so bear that in mind).<br>
+</li>
+<li>Work with a specialist partner / consultant to fill this gap and support your teams doing what they are good at.</li>
+</ol>
+<p>Converting experimental analytics POCs into robust MLOps-style pipelines is not trivial. It takes real, behind the scenes work which is kind of thankless. But sometimes you need to eat your vegetables and do this. Ensuring you have a well crafted process for governing how, when and why MLOps should exist will help secure the time, funding and social capital you need.</p>
+</section>
+<section id="dont-overlook-security" class="level2">
+<h2 class="anchored" data-anchor-id="dont-overlook-security">2) Don’t overlook security</h2>
+<p>Want to know where you are going to face challenges and delays implementing an AI/Ml platform?</p>
+<p>Wonder no more: Network Security.</p>
+<p>Azure ML Studio (and any ML platform) will require serious planning around network architecture and security, and for good reason. It’s not as scary as it sounds, but it does require expertise. You need to have strong representation on your project from a decision maker and a ‘doer’ in network security. If these people aren’t inside the tent with you, your project will grind to a halt.</p>
+</section>
+<section id="think-about-dev-work-not-just-mlops" class="level2">
+<h2 class="anchored" data-anchor-id="think-about-dev-work-not-just-mlops">3) Think about dev work, not just MLOps</h2>
+<p>If we are being honest, not many organisations are ready for scalable, reproducible, high performance ML deployments. But almost all orgs are building toward this in the next 5 years. So what’s most useful in the here and now?</p>
+<ol type="a">
+<li>Easy to access online notebooks with various kernels</li>
+<li>Click of a button scalable compute, without fussing about with the infra layer</li>
+<li>AutoML tools to find performance ceilings and explore the solution space of new problems</li>
+</ol>
+<p>Want to get your data scientist on board? Tell them they wont have to run jobs on their laptops overnight anymore.</p>
+</section>
+<section id="its-python-heavy-sorry-r-users" class="level2">
+<h2 class="anchored" data-anchor-id="its-python-heavy-sorry-r-users">4) It’s Python heavy (sorry R users)</h2>
+<p>There a lot to complain about if you are an R user. Azure ML studio is decidedly a Python oriented tool. While admittedly, most high-level AI development work is in Python, in reality a lot of so called “ML” projects are classical statistical models anyway. There are nice tools within R ecosystem for <a href="https://putrinprod.com/">putting R in prod</a>. However if you work in an enterprise setting, you may need to deploy your models on the chosen enterprise analytics platform. This is not ideal for R users, but hopefully in a future post I can show you how to have the best of both worlds.</p>
+</section>
+<section id="its-not-an-etl-environment" class="level2">
+<h2 class="anchored" data-anchor-id="its-not-an-etl-environment">5) Its not an ETL environment</h2>
+<p>Like any tool its only good for what it’s good for. When we think of true end-to-end machine learning projects there are steps in that process that are better fit in other tools. A common suspect here is the data import and processing. It’s nice to coordinate ML deployments with your data engineering teams to ensure you are using the right tools for the right jobs.</p>
+</section>
+<section id="want-to-learn-more" class="level2">
+<h2 class="anchored" data-anchor-id="want-to-learn-more">Want to learn more?</h2>
+<p>If you are wanting to take the next steps in setting up people, process and platforms for high performance machine learning, <a href="https://www.wavedatalabs.com.au/contact/">get in touch for a chat.</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>analysis</category>
+  <category>statistics</category>
+  <guid>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/index.html</guid>
+  <pubDate>Sun, 10 Sep 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Three Questions to Ask Your Data Scientist</title>
+  <dc:creator>Dean Marchiori</dc:creator>
+  <link>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
 <p>If you have hired a data scientist or run a team of data people, you may not be an expert yourself (that’s why you hired an expert, right?). So how do you know you are receiving a quality predictive model and not some BS that was thrown carelessly at a <a href="https://en.wikipedia.org/wiki/Black_box">black-box</a> machine learning model.</p>
 <p>The consequences of poorly built statistical models are not trivial. In 2015, Amazon realized its ‘AI recruiting tool’ didn’t like women<sup>1</sup>. In the US, facial recognition models used by police were found to have biases that more commonly misidentified underrepresented communities.<sup>2</sup></p>
 <p>So what can you do about it?</p>
@@ -35,7 +97,7 @@
 </li>
 <li>Are sensitive features used in the model training (race, religion, gender, political preferences).</li>
 </ul>
-<p>Algorithmic fairness and biases are already huge issues which are only getting worse. Further reading on this topic is covered by Cathy O’Neil’s excellent book <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em><sup>3</sup>.</p>
+<p>Algorithmic unfairness and biases are already huge issues which are only getting worse. Further reading on this topic is covered by Cathy O’Neil’s excellent book <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em><sup>3</sup>.</p>
 </section>
 <section id="what-assumptions-does-the-model-make-and-how-have-these-been-tested" class="level3">
 <h3 class="anchored" data-anchor-id="what-assumptions-does-the-model-make-and-how-have-these-been-tested">2. What assumptions does the model make, and how have these been tested?</h3>
@@ -53,12 +115,12 @@
 <h3 class="anchored" data-anchor-id="how-accurate-is-the-model">3. How accurate is the model?</h3>
 <p>Ever been told a model is 99% accurate? I’d be very worried if you had. Be skeptical of very high performance.</p>
 <p><a href="https://xkcd.com/2236/">xkcd.com</a> highlight this well with their ‘Is it Christmas?’ predictive model.</p>
-<p><img src="https://wavedatalabs.com.au/posts/2023-07-12-three=questions/https:/imgs.xkcd.com/comics/is_it_christmas.png" class="img-fluid"></p>
+<p><img src="https://wavedatalabs.com.au/posts/2023-07-12-three-questions/https:/imgs.xkcd.com/comics/is_it_christmas.png" class="img-fluid"></p>
 <ul>
 <li><p>On what data has the model been tested? Is it a completely independent test set? Was there any leakage from the training data? Was the feature engineering done before or after the training/test split (hint: it usually needs to be after).</p></li>
-<li><p>If your model is a binary classification model, you should know what the ‘null model’ and whether it outperforms this.</p></li>
+<li><p>If your model is a binary classification model, you should know what the ‘null model’ is and whether it outperforms this.</p></li>
 <li><p><em>Accuracy</em> is just one measure and is the proportion of correct classifications (both positive and negative class) but you may have different tolerance for misclassifications of each class. For example, you might be predicting the presence of a disease from a test. If you make a false positive, will the risk of side-effects or cost outweigh the risk the making a false negative and having the patient get sicker or die? It’s tricky.</p></li>
-<li><p>In addition to accuracy, ask for the following metrics, along with an explanation of what they mean.</p>
+<li><p>In addition to accuracy ask for the following metrics, along with an explanation of what they mean.</p>
 <ul>
 <li>Sensitivity / Recall</li>
 <li>Specificity</li>
@@ -90,9 +152,9 @@
 </section></div> ]]></description>
   <category>analysis</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-07-12-three=questions/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/index.html</guid>
   <pubDate>Tue, 11 Jul 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://wavedatalabs.com.au/posts/2023-07-12-three=questions/featured.png" medium="image" type="image/png" height="136" width="144"/>
+  <media:content url="https://wavedatalabs.com.au/posts/2023-07-12-three-questions/featured.png" medium="image" type="image/png" height="136" width="144"/>
 </item>
 <item>
   <title>Why your data science projects are failing</title>

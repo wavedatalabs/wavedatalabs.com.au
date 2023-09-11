@@ -2,98 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wavedatalabs.com.au/about/index.html</loc>
-    <lastmod>2023-09-08T05:36:26.575Z</lastmod>
+    <lastmod>2023-09-11T01:34:28.307Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/privacy.html</loc>
-    <lastmod>2023-07-12T00:04:56.351Z</lastmod>
+    <lastmod>2023-09-11T01:34:28.736Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/2023-03-17-building-your-own-r-data-science-lab/index.html</loc>
-    <lastmod>2023-07-12T00:04:56.711Z</lastmod>
+    <lastmod>2023-09-11T01:34:29.140Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/2022-01-17-running-shiny-in-a-docker-container/index.html</loc>
-    <lastmod>2023-07-12T00:04:57.063Z</lastmod>
+    <lastmod>2023-09-11T01:34:29.532Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</loc>
-    <lastmod>2023-07-12T00:04:57.439Z</lastmod>
+    <lastmod>2023-09-11T01:34:29.940Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/index.html</loc>
-    <lastmod>2023-09-08T06:21:06.657Z</lastmod>
+    <lastmod>2023-09-11T01:34:30.488Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/2023-06-20-dds/index.html</loc>
-    <lastmod>2023-07-12T00:04:58.279Z</lastmod>
+    <lastmod>2023-09-11T01:34:30.832Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/contact/index.html</loc>
-    <lastmod>2023-09-08T06:26:03.746Z</lastmod>
+    <lastmod>2023-09-11T01:34:49.352Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-06-26-failure/index.html</loc>
-    <lastmod>2023-07-12T00:04:58.967Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-07-12-three=questions/index.html</loc>
-    <lastmod>2023-07-12T00:28:03.178Z</lastmod>
+    <lastmod>2023-09-11T01:34:31.584Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/index.html</loc>
-    <lastmod>2023-07-12T00:04:59.811Z</lastmod>
+    <lastmod>2023-09-11T01:34:32.056Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index.html</loc>
-    <lastmod>2023-07-12T00:05:00.243Z</lastmod>
+    <lastmod>2023-09-11T01:34:32.596Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/index.html</loc>
-    <lastmod>2023-07-12T00:05:00.575Z</lastmod>
+    <lastmod>2023-09-11T01:34:32.976Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html</loc>
-    <lastmod>2023-07-12T00:05:01.163Z</lastmod>
+    <lastmod>2023-09-11T01:34:33.696Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2022-01-17-running-shiny-in-a-docker-container/index.html</loc>
-    <lastmod>2023-07-12T00:05:01.487Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/index.html</loc>
-    <lastmod>2023-07-12T00:28:58.326Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html</loc>
-    <lastmod>2023-07-12T00:05:02.811Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</loc>
-    <lastmod>2023-07-12T00:05:03.175Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/index.html</loc>
-    <lastmod>2023-07-12T00:28:54.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html</loc>
-    <lastmod>2023-07-12T00:05:04.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/index.html</loc>
-    <lastmod>2023-09-08T06:23:12.079Z</lastmod>
+    <lastmod>2023-09-11T01:34:34.064Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/index.html</loc>
-    <lastmod>2023-07-12T00:59:23.378Z</lastmod>
+    <lastmod>2023-09-11T01:34:34.508Z</lastmod>
   </url>
   <url>
-    <loc>https://wavedatalabs.com.au/consult/consult.html</loc>
-    <lastmod>2023-09-08T05:36:38.782Z</lastmod>
+    <loc>https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/index.html</loc>
+    <lastmod>2023-09-11T01:34:35.220Z</lastmod>
   </url>
   <url>
-    <loc>https://wavedatalabs.com.au/consult/index.html</loc>
-    <lastmod>2023-09-08T05:44:02.680Z</lastmod>
+    <loc>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/index.html</loc>
+    <lastmod>2023-09-11T01:35:01.508Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html</loc>
+    <lastmod>2023-09-11T01:34:36.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</loc>
+    <lastmod>2023-09-11T01:34:36.852Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/posts/index.html</loc>
+    <lastmod>2023-09-11T01:34:58.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html</loc>
+    <lastmod>2023-09-11T01:34:38.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/index.html</loc>
+    <lastmod>2023-09-11T01:34:45.700Z</lastmod>
   </url>
 </urlset>
