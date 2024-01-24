@@ -22,7 +22,7 @@
 
 <p>Are you about to scale up your data analytics team to do more AI/ML work? Here are 5 things you need to know up front to make your life easier.</p>
 <p>These are tips focused on enterprise-level organisations wanting to implement Microsoft’s <a href="https://azure.microsoft.com/en-au/products/machine-learning">Azure Machine Learning studio</a>. But I’m sure the content translates well to other settings.</p>
-<p><img src="https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/featured.jpg" class="img-fluid"></p>
+<p><img src="https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/featured.png" class="img-fluid"></p>
 <section id="people---process---platform-pick-any-three" class="level2">
 <h2 class="anchored" data-anchor-id="people---process---platform-pick-any-three">1) People - Process - Platform (pick any three)</h2>
 <p>Effective analytics and machine learning requires coordination of <strong>People, Process &amp; Platform</strong>. But do you need all three?</p>
@@ -72,7 +72,7 @@
   <category>statistics</category>
   <guid>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/index.html</guid>
   <pubDate>Sun, 10 Sep 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/featured.png" medium="image" type="image/png" height="123" width="144"/>
 </item>
 <item>
   <title>Three Questions to Ask Your Data Scientist</title>
