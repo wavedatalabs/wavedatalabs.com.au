@@ -6,16 +6,84 @@
       version="2.0">
 <channel>
 <title>Wave Data Labs</title>
-<link>https://wavedatalabs.com.au/posts/index.html</link>
+<link>https://wavedatalabs.com.au/posts/</link>
 <atom:link href="https://wavedatalabs.com.au/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science and Statistical Consulting</description>
-<generator>quarto-1.3.340</generator>
-<lastBuildDate>Sun, 10 Sep 2023 14:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Sun, 02 Jun 2024 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>Year 1</title>
+  <dc:creator>Dean Marchiori</dc:creator>
+  <link>https://wavedatalabs.com.au/posts/2024-06-03-annualreview/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>With the financial year drawing to a close in a few weeks, I took the opportunity to look back on our first full year operating Wave Data Labs.</p>
+<p>The idea to move into more freelance style consulting came from the need to be more flexible, gain a better work-life balance and deal with some important family matters. So while work was not always my focus, I was very committed to delivering a premium service and helping my clients solve complex problems.</p>
+<p>Overall, professionally it was an extremely rewarding year filled with diverse projects and interesting people. Thank you to all of my clients and partners throughout the year, I really appreciated your support. Looking forward to solving some more complex problems this coming year.</p>
+<section id="stats" class="level2">
+<h2 class="anchored" data-anchor-id="stats">Stats</h2>
+<ul>
+<li>I worked on average 4.2 days per week.</li>
+<li>I worked with clients in Sydney, Wollongong, Melbourne, Milan, London, Johannesburg, New York, Washington DC</li>
+<li>Number of engagements: 10<br>
+</li>
+<li>Days worked = 219</li>
+<li>Days commuting = 0</li>
+<li>Days of travel = 2 (both Melbourne)</li>
+</ul>
+</section>
+<section id="projects-accomplished" class="level2">
+<h2 class="anchored" data-anchor-id="projects-accomplished">Projects Accomplished</h2>
+<ul>
+<li>Bushfire risk analysis and mapping</li>
+<li>Youth mental health geospatial hotspot analysis</li>
+<li>Analysis and mapping of access to Assisted Reproductive Technologies</li>
+<li>Azure MLOps implementation</li>
+<li>Responsible AI advisory</li>
+<li>Marketing intelligence interactive mapping application</li>
+<li>Data science team strategy consulting</li>
+<li>Workshops on emerging data science product development for start-ups</li>
+<li>Data pipeline build for a large scientific research project on pandemic prevention</li>
+<li>Anomaly detection and cluster analysis for financial crime detection</li>
+<li>Customer segmentation and recommender system build for financial services company</li>
+</ul>
+</section>
+<section id="sectors" class="level2">
+<h2 class="anchored" data-anchor-id="sectors">Sectors</h2>
+<ul>
+<li>Universities</li>
+<li>Journalism</li>
+<li>Software development</li>
+<li>Aged Care</li>
+<li>Financial Services</li>
+<li>Not for Profit (healthcare)</li>
+<li>Telecommunications</li>
+</ul>
+</section>
+<section id="happy-snaps" class="level2">
+<h2 class="anchored" data-anchor-id="happy-snaps">Happy snaps</h2>
+<p><img src="https://wavedatalabs.com.au/posts/2024-06-03-annualreview/bf.png" class="img-fluid"> <img src="https://wavedatalabs.com.au/posts/2024-06-03-annualreview/featured.png" class="img-fluid"> <img src="https://wavedatalabs.com.au/posts/2024-06-03-annualreview/fert.png" class="img-fluid"> <img src="https://wavedatalabs.com.au/posts/2024-06-03-annualreview/csiro.jpg" class="img-fluid"> <img src="https://wavedatalabs.com.au/posts/2024-06-03-annualreview/melb.jpg" class="img-fluid"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>wave</category>
+  <category>review</category>
+  <guid>https://wavedatalabs.com.au/posts/2024-06-03-annualreview/</guid>
+  <pubDate>Sun, 02 Jun 2024 14:00:00 GMT</pubDate>
+  <media:content url="https://wavedatalabs.com.au/posts/2024-06-03-annualreview/featured.png" medium="image" type="image/png" height="95" width="144"/>
+</item>
 <item>
   <title>Deploying Enterprise Scale AI &amp; Machine Learning Infrastucture</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -70,15 +138,16 @@
  ]]></description>
   <category>analysis</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/</guid>
   <pubDate>Sun, 10 Sep 2023 14:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/featured.png" medium="image" type="image/png" height="123" width="144"/>
 </item>
 <item>
   <title>Three Questions to Ask Your Data Scientist</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -115,7 +184,7 @@
 <h3 class="anchored" data-anchor-id="how-accurate-is-the-model">3. How accurate is the model?</h3>
 <p>Ever been told a model is 99% accurate? I’d be very worried if you had. Be skeptical of very high performance.</p>
 <p><a href="https://xkcd.com/2236/">xkcd.com</a> highlight this well with their ‘Is it Christmas?’ predictive model.</p>
-<p><img src="https://wavedatalabs.com.au/posts/2023-07-12-three-questions/https:/imgs.xkcd.com/comics/is_it_christmas.png" class="img-fluid"></p>
+<p><img src="https://imgs.xkcd.com/comics/is_it_christmas.png" class="img-fluid"></p>
 <ul>
 <li><p>On what data has the model been tested? Is it a completely independent test set? Was there any leakage from the training data? Was the feature engineering done before or after the training/test split (hint: it usually needs to be after).</p></li>
 <li><p>If your model is a binary classification model, you should know what the ‘null model’ is and whether it outperforms this.</p></li>
@@ -152,15 +221,16 @@
 </section></div> ]]></description>
   <category>analysis</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/</guid>
   <pubDate>Tue, 11 Jul 2023 14:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-07-12-three-questions/featured.png" medium="image" type="image/png" height="136" width="144"/>
 </item>
 <item>
   <title>Why your data science projects are failing</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-06-26-failure/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-06-26-failure/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -203,15 +273,16 @@
 
  ]]></description>
   <category>analysis</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-06-26-failure/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-06-26-failure/</guid>
   <pubDate>Sun, 25 Jun 2023 14:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-06-26-failure/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Man vs Machine Learning</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -471,15 +542,16 @@
 </section></div> ]]></description>
   <category>R</category>
   <category>Azure</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/</guid>
   <pubDate>Thu, 01 Jun 2023 14:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Level up your Forecasting</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-05-29-forecasting/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -487,7 +559,11 @@
 <p>This is a time series data set of half-hourly electricity demand for Victoria, Australia <sup>1</sup>. You may not care about electricity forecasting, but there is probably some similar time series in your organisation you do care about.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p><strong>What is the forecast demand for the next week?</strong></p>
@@ -504,32 +580,52 @@
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Both are in the ballpark but they aren’t very squiggly like the real data. They clearly aren’t capturing the <em>seasonality</em>.</p>
 <p>You could be lazy (clever) and just use the same time period from <em>last</em> week as your current forecast. It actually looks really good. But it’s just one, fixed realization of what could happen. Will it play out exactly like your forecast? <em>Exactly</em> like last week? Almost certainly not.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Let’s simulate another way history could play out. (By statistically resampling the residuals in the training data)</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>And another</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>And 20 more:</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>So instead of blindly relying on one (kind of okay looking, but totally unrealistic) forecast, we now have a ‘fuzzy’ region of plausible values.</p>
@@ -545,7 +641,11 @@
 <p>In practice, you often don’t have to do any mathematical simulations. Proper time series forecasts have methods to calculate prediction intervals out of the box (see below).</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -554,7 +654,11 @@
 <p>Want to know what actually happened? Here it is in red.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>A huge criticism of providing probabilistic forecasts is that is seems like you are ‘hedging your bets’ and being evasive. The reality is, in our electricity example, it was just very hot and demand surged (much higher than even our 95% prediction interval). So if it’s realistic and plausible to see forecast values in these ranges (or even more extreme) - Why wouldn’t you want to include that information in your forecast??</p>
@@ -580,15 +684,16 @@
 </section></div> ]]></description>
   <category>R</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-05-29-forecasting/</guid>
   <pubDate>Sun, 28 May 2023 14:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-05-29-forecasting/featured.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
   <title>Random Number Generator Testing</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -599,7 +704,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/larsen.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Game show wizz and ice cream man Michael Larsen</figcaption>
+<figcaption>Game show wizz and ice cream man Michael Larsen</figcaption>
 </figure>
 </div>
 <section id="aside-ok-but-what-is-random-and-who-is-ramsey" class="level2">
@@ -613,7 +718,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/random.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Early true RNG using atmospheric noise from a cheap radio</figcaption>
+<figcaption>Early true RNG using atmospheric noise from a cheap radio</figcaption>
 </figure>
 </div>
 <p>Pseudo-random numbers are generated using a ‘seed’ that deterministically produces numbers that look random, but can be entirely reproduced from the initial seed condition. This is often useful (and used by me all the time) when you need a random sample, but you need it to replicated exactly for scientific reproducibility purposes.</p>
@@ -647,15 +752,16 @@
  ]]></description>
   <category>R</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/</guid>
   <pubDate>Thu, 18 May 2023 14:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Deploy Your Own R Data Science Lab in the Cloud</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -708,15 +814,16 @@
  ]]></description>
   <category>R</category>
   <category>azure</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/</guid>
   <pubDate>Sat, 25 Mar 2023 13:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/featured.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>Building your own R Data Science Lab in the browser</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -742,15 +849,16 @@
  ]]></description>
   <category>R</category>
   <category>docker</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/</guid>
   <pubDate>Tue, 14 Mar 2023 13:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/featured.png" medium="image" type="image/png" height="84" width="144"/>
 </item>
 <item>
   <title>Beware of Boundaries in Binominal Proportion Confidence Intervals</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -900,7 +1008,11 @@ font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Note unusual behaviour near 0.01 and 0.99"</span>)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
@@ -983,7 +1095,11 @@ font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Reference line at 0.95 coverage"</span>)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>A good discussion is contained in:</p>
@@ -995,15 +1111,16 @@ font-style: inherit;">"Reference line at 0.95 coverage"</span>)</span></code></p
  ]]></description>
   <category>R</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/</guid>
   <pubDate>Sun, 12 Mar 2023 13:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/featured.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>When should you be using the Hypergeometric distribution in practice?</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1139,7 +1256,11 @@ font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Observed defective units in sample"</span>)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>However, if we had a smaller population of say 100 or 70 widgets, how would this compare?</p>
@@ -1289,7 +1410,11 @@ font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Observed defective units in sample"</span>)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>We can see these curves are markedly different. And indeed the 95% confidence intervals obtained are narrower for the hypergeometric case.</p>
@@ -1422,15 +1547,16 @@ font-style: inherit;">var</span>(Y)</span></code></pre></div>
  ]]></description>
   <category>R</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/</guid>
   <pubDate>Sun, 19 Feb 2023 13:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/featured.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
   <title>Prediction Intervals for Linear Mixed Effects Models</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1482,7 +1608,11 @@ font-style: inherit;">+</span></span>
 background-color: null;
 font-style: inherit;">theme_bw</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Fitting a basic linear model:</p>
@@ -1559,7 +1689,11 @@ font-style: inherit;">+</span></span>
 background-color: null;
 font-style: inherit;">theme_bw</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>But this ignores the fact these data are not independent. We have multiple observation per subject. Some look like a good fit, others not.</p>
@@ -1610,7 +1744,11 @@ font-style: inherit;">+</span></span>
 background-color: null;
 font-style: inherit;">theme_bw</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -1745,7 +1883,11 @@ font-style: inherit;">+</span></span>
 background-color: null;
 font-style: inherit;">theme_bw</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -1984,7 +2126,11 @@ font-style: inherit;">+</span></span>
 background-color: null;
 font-style: inherit;">theme_bw</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -2101,7 +2247,11 @@ font-style: inherit;">150</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">450</span>))</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>However using <code>predict</code> just results in a completely deterministic prediction as shown above.</p>
@@ -2241,7 +2391,11 @@ font-style: inherit;">150</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">450</span>))</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>We can use this <code>simulate()</code> function in our bootstrapping to resample responses from the fitted model (rather than resampling deterministic population predictions).</p>
@@ -2372,7 +2526,11 @@ font-style: inherit;">150</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">450</span>))</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>So while we don’t have a conditional mode of the random effect (because its a new subject) we can derive a bootstrapped estimate of the prediction interval by resampling the random effects and model errors on simulated data values.</p>
@@ -2503,7 +2661,11 @@ font-style: inherit;">150</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">450</span>))</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -2518,15 +2680,16 @@ font-style: inherit;">450</span>))</span></code></pre></div>
  ]]></description>
   <category>R</category>
   <category>statistics</category>
-  <guid>https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/</guid>
   <pubDate>Sun, 05 Feb 2023 13:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/featured.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
   <title>Running Shiny in a Docker container</title>
   <dc:creator>Dean Marchiori</dc:creator>
-  <link>https://wavedatalabs.com.au/posts/2022-01-17-running-shiny-in-a-docker-container/index.html</link>
+  <link>https://wavedatalabs.com.au/posts/2022-01-17-running-shiny-in-a-docker-container/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2648,7 +2811,7 @@ https://www.bjoern-hartmann.de/post/learn-how-to-dockerize-a-shinyapp-in-7-steps
  ]]></description>
   <category>R</category>
   <category>analysis</category>
-  <guid>https://wavedatalabs.com.au/posts/2022-01-17-running-shiny-in-a-docker-container/index.html</guid>
+  <guid>https://wavedatalabs.com.au/posts/2022-01-17-running-shiny-in-a-docker-container/</guid>
   <pubDate>Sun, 16 Jan 2022 13:00:00 GMT</pubDate>
   <media:content url="https://wavedatalabs.com.au/posts/2022-01-17-running-shiny-in-a-docker-container/featured.png" medium="image" type="image/png" height="37" width="144"/>
 </item>
