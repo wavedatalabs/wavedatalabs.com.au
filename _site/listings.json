@@ -1,14 +1,5 @@
 [
   {
-    "listing": "/services/index.html",
-    "items": [
-      "/services/2023-06-20-dds/index.html",
-      "/services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
-      "/services/2023-03-17-building-your-own-r-data-science-lab/index.html",
-      "/services/2022-01-17-running-shiny-in-a-docker-container/index.html"
-    ]
-  },
-  {
     "listing": "/posts/index.html",
     "items": [
       "/posts/2024-06-03-annualreview/index.html",
@@ -24,6 +15,15 @@
       "/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html",
       "/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html",
       "/posts/2022-01-17-running-shiny-in-a-docker-container/index.html"
+    ]
+  },
+  {
+    "listing": "/services/index.html",
+    "items": [
+      "/services/2023-06-20-dds/index.html",
+      "/services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
+      "/services/2023-03-17-building-your-own-r-data-science-lab/index.html",
+      "/services/2022-01-17-running-shiny-in-a-docker-container/index.html"
     ]
   }
 ]
