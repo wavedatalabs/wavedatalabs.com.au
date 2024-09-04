@@ -1,12 +1,17 @@
 ---
-title: "Data Science & Statistical Consulting"
+title: "Data Science & Statistical Consulting Services"
 listing: 
-  sort: "date desc"
+  sort: "title desc"
 ---
 
-We are available for short or long term consulting and contract opportunities in a range of fields. If you are interesting in working together [get in touch here.](../contact/index.qmd)
+We specialise in solving real-world, complex problems that have high social impact.   
 
-	
+We have been trusted by leading organisations around the world including major corporate brands, top universities, not-for-profits & start-ups.
+
+We don't sell hype. We use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value - quickly.   
+
+When you work with us, you get the A-Team every time.
+
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -23,6 +28,27 @@ We are available for short or long term consulting and contract opportunities in
 {{< fa database title="A database">}} Infrastructure & Capability Assessments 
 :::
 
+::::  
+
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+:::
+
+::: {.column width="30%"}
+[Work with us](../contact/index.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Work with us"}  
+
+:::
+
+::: {.column width="35%"}
+
+:::
+
+
 ::::
 
-## Some of our work
+<hr>  
+
+## Projects Completed

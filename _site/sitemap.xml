@@ -2,91 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wavedatalabs.com.au/about/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.921Z</lastmod>
+    <lastmod>2024-09-04T02:40:17.835Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.925Z</lastmod>
+    <lastmod>2024-09-04T05:28:38.410Z</lastmod>
   </url>
   <url>
-    <loc>https://wavedatalabs.com.au/services/2023-06-20-dds/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.950Z</lastmod>
+    <loc>https://wavedatalabs.com.au/services/2024-01-01-service-3/index.html</loc>
+    <lastmod>2024-09-04T04:26:54.666Z</lastmod>
   </url>
   <url>
-    <loc>https://wavedatalabs.com.au/services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.949Z</lastmod>
+    <loc>https://wavedatalabs.com.au/services/2024-01-01-service-4/index.html</loc>
+    <lastmod>2024-09-04T03:09:50.797Z</lastmod>
   </url>
   <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-06-26-failure/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-07-12-three-questions/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2024-06-03-annualreview/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.945Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-05-29-forecasting/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.930Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-05-18-RNG-Testing/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-06-02-man-vs-ml/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.930Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.928Z</lastmod>
+    <loc>https://wavedatalabs.com.au/services/2024-01-01-service-2/index.html</loc>
+    <lastmod>2024-09-04T04:33:37.014Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/contact/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.923Z</lastmod>
+    <lastmod>2024-09-04T05:29:59.500Z</lastmod>
   </url>
   <url>
-    <loc>https://wavedatalabs.com.au/posts/2022-01-17-running-shiny-in-a-docker-container/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.925Z</lastmod>
+    <loc>https://wavedatalabs.com.au/book/index.html</loc>
+    <lastmod>2024-09-04T05:25:25.382Z</lastmod>
   </url>
   <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-03-17-building-your-own-r-data-science-lab/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.927Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.947Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-09-11-enterprise-ml/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.943Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/services/2022-01-17-running-shiny-in-a-docker-container/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.947Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wavedatalabs.com.au/services/2023-03-17-building-your-own-r-data-science-lab/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.947Z</lastmod>
+    <loc>https://wavedatalabs.com.au/services/2024-01-01-service-5/index.html</loc>
+    <lastmod>2024-09-04T04:29:11.624Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/services/index.html</loc>
-    <lastmod>2024-09-03T06:21:35.950Z</lastmod>
+    <lastmod>2024-09-04T04:25:24.759Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wavedatalabs.com.au/services/2024-01-01-service-1/index.html</loc>
+    <lastmod>2024-09-04T04:31:06.395Z</lastmod>
   </url>
   <url>
     <loc>https://wavedatalabs.com.au/privacy.html</loc>

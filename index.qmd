@@ -1,15 +1,15 @@
 ---
-title: "Data Science and Statistical Consulting"
+title: "Solving complex problems with maths and data."
 about:
   template: jolla
   image: img/logo.png
   image-shape: rectangle
   links:
-  - icon: cup-hot
-    text: Meet
-    href: https://calendly.com/wavedata
+  - icon: calendar
+    text: Book a meeting
+    href: https://wavedatalabs.com.au/book/
   - icon: envelope
-    text: Email
+    text: Send an email
     href: mailto:info@wavedatalabs.com.au
 format: html
 
@@ -19,11 +19,3 @@ format: html
 
 All science, no hype.
 
-<style>
-  body {
-  background-image: url("img/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-  
-</style>

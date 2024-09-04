@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Wave Data Labs - Dean Marchiori</title>
+<title>Wave Data Labs - Customer segmentation and recommender system build for financial services company</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../img/logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,10 +85,13 @@ ga('send', {
 </script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Wave Data Labs - Dean Marchiori">
-<meta property="og:description" content="Director | Principal Statistician">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Wave Data Labs - Customer segmentation and recommender system build for financial services company">
+<meta property="og:description" content="Data Science and Statistical Consulting">
+<meta property="og:image" content="https://wavedatalabs.com.au/services/2024-01-01-service-5/featured.png">
 <meta property="og:site_name" content="Wave Data Labs">
+<meta property="og:image:height" content="434">
+<meta property="og:image:width" content="464">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -97,10 +101,10 @@ ga('send', {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Wave Data Labs</span>
     </a>
   </div>
@@ -111,19 +115,19 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../services/index.html"> 
+    <a class="nav-link" href="../../services/index.html"> 
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact/index.html"> 
+    <a class="nav-link" href="../../contact/index.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -142,51 +146,67 @@ ga('send', {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<section id="the-team" class="level1">
-<h1>The Team</h1>
-<p>Small but effective.</p>
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="profile.png" class="about-image
-  round " style="height: 20em; width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dean Marchiori</h1>
-<p class="subtitle lead">Director | Principal Statistician</p>
+<h1 class="title">Customer segmentation and recommender system build for financial services company</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/deanmarchiori" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://www.linkedin.com/in/deanmarchiori" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/deanmarchiori/CV/raw/master/CV/CV.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-pdf"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>Dean Marchiori is an applied mathematician and specialist in statistical analysis, data science and R programming. He is the Director and Principal Statistician at <a href="https://www.wavedatalabs.com.au/">Wave Data Labs</a> and co-chair of the Statistical Society of Australia’s section for statistical computing and visualisation. Previously Dean was also a sessional teaching academic in the School of Mathematical and Physical Sciences at Macquarie University. His areas of specialisation are in time series modelling &amp; anomaly detection, geospatial analytics, unsupervised clustering methods and the R programming language. Dean obtained his Bachelor of Science in Mathematics with University Medal from Charles Sturt University. He also holds a Master of Applied Finance degree, and a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize. Dean holds the Accredited Statistician (AStat) qualification from the Statistical Society of Australia and was named one of the top 10 analytics professionals in Australia by the Institute of Analytics Professionals of Australia (IAPA).</p>
-<p>For more info you can go to <a href="https://www.deanmarchiori.com">deanmarchiori.com</a></p>
-</div></div>
-</div>
 
 
+<section id="the-challenge" class="level3">
+<h3 class="anchored" data-anchor-id="the-challenge">The Challenge</h3>
+<p>Our client, a leading online retail company<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, wanted to deepen its understanding of customer behavior to improve retention and drive more targeted marketing campaigns. The company had a vast amount of transaction data but lacked a systematic approach to segment customers and personalize recommendations. The goal was to leverage this data to create distinct customer segments and recommend relevant products or services.</p>
+</section>
+<section id="the-approach" class="level3">
+<h3 class="anchored" data-anchor-id="the-approach">The Approach</h3>
+<p>We adopted a two-fold strategy: implementing RFM segmentation and developing an item-based recommender system.</p>
+<p><strong>1. RFM Segmentation:</strong><br>
+RFM analysis is a proven method for segmenting customers based on their purchasing behavior. We analyzed three key factors:</p>
+<ul>
+<li><strong>Recency:</strong> How recently a customer made a transaction.</li>
+<li><strong>Frequency:</strong> How often a customer transacts within a given period.</li>
+<li><strong>Monetary:</strong> The total value of a customer’s transactions.</li>
+</ul>
+<p>By scoring<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> customers on these dimensions, we were able to categorize them into distinct segments, such as high-value customers, frequent transactors, or those at risk of churning. This segmentation provided the company with a clearer understanding of where to focus its marketing efforts, ensuring that resources were allocated efficiently.</p>
+<p><strong>2. Item-Based Recommender System:</strong><br>
+Once the customer segments were established, we turned our attention to building an item-based recommender system. This system analyzed the purchasing patterns within each segment to suggest financial products or services that similar customers had purchased or expressed interest in. By using collaborative filtering techniques, the recommender system could accurately predict which offerings would appeal to specific customer segments.</p>
+</section>
+<section id="the-results" class="level3">
+<h3 class="anchored" data-anchor-id="the-results">The Results</h3>
+<p>The implementation of RFM segmentation and the item-based recommender system can yield significant benefits:</p>
+<ul>
+<li><strong>Improved Targeting:</strong> The company could now tailor its marketing campaigns to specific customer segments, resulting in higher engagement rates and better conversion.</li>
+<li><strong>Increased Customer Satisfaction:</strong> By recommending relevant products, the company can better affect customer satisfaction, leading to improved retention and loyalty.</li>
+<li><strong>Revenue Growth:</strong> The targeted approach also drove revenue opportunities though cross-selling and upselling the right products to the right customers.</li>
+</ul>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>By integrating RFM analysis with an item-based recommender system, our consulting team helped the company transition to a more data-driven approach to customer engagement. As online businesses continue to evolve, these strategies will be essential for companies looking to maintain a competitive edge and build lasting customer relationships.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Name and industry changed/withheld to respect client privacy.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Exact methods used are confidential and cannot be disclosed<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -351,6 +371,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -742,7 +769,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../../index.html">
 <p>Copyright 2024, Wave Data Labs Pty Ltd.</p>
 </a>
   </li>  
