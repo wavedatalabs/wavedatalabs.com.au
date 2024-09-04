@@ -1,29 +1,12 @@
 [
   {
-    "listing": "/posts/index.html",
-    "items": [
-      "/posts/2024-06-03-annualreview/index.html",
-      "/posts/2023-09-11-enterprise-ml/index.html",
-      "/posts/2023-07-12-three-questions/index.html",
-      "/posts/2023-06-26-failure/index.html",
-      "/posts/2023-06-02-man-vs-ml/index.html",
-      "/posts/2023-05-29-forecasting/index.html",
-      "/posts/2023-05-18-RNG-Testing/index.html",
-      "/posts/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
-      "/posts/2023-03-17-building-your-own-r-data-science-lab/index.html",
-      "/posts/2023-03-13-choosing-the-right-binomial-confidence-interval/index.html",
-      "/posts/2023-02-20-when-should-you-be-using-the-hypergeometric-distribution-in-practice/index.html",
-      "/posts/2023-02-06-prediction-intervals-for-linear-mixed-effects-models/index.html",
-      "/posts/2022-01-17-running-shiny-in-a-docker-container/index.html"
-    ]
-  },
-  {
     "listing": "/services/index.html",
     "items": [
-      "/services/2023-06-20-dds/index.html",
-      "/services/2023-03-17-deploy-your-own-rstudio-server-in-the-cloud/index.html",
-      "/services/2023-03-17-building-your-own-r-data-science-lab/index.html",
-      "/services/2022-01-17-running-shiny-in-a-docker-container/index.html"
+      "/services/2024-01-01-service-3/index.html",
+      "/services/2024-01-01-service-5/index.html",
+      "/services/2024-01-01-service-1/index.html",
+      "/services/2024-01-01-service-2/index.html",
+      "/services/2024-01-01-service-4/index.html"
     ]
   }
 ]

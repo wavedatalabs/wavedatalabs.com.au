@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Wave Data Labs - Dean Marchiori</title>
+<title>Wave Data Labs - Anomaly detection and cluster analysis for financial crime detection</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../img/logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,9 +85,10 @@ ga('send', {
 </script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Wave Data Labs - Dean Marchiori">
-<meta property="og:description" content="Director | Principal Statistician">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Wave Data Labs - Anomaly detection and cluster analysis for financial crime detection">
+<meta property="og:description" content="Data Science and Statistical Consulting">
+<meta property="og:image" content="https://wavedatalabs.com.au/services/2024-01-01-service-2/featured.jpg">
 <meta property="og:site_name" content="Wave Data Labs">
 </head>
 
@@ -97,10 +99,10 @@ ga('send', {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Wave Data Labs</span>
     </a>
   </div>
@@ -111,19 +113,19 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../services/index.html"> 
+    <a class="nav-link" href="../../services/index.html"> 
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact/index.html"> 
+    <a class="nav-link" href="../../contact/index.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -142,51 +144,61 @@ ga('send', {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<section id="the-team" class="level1">
-<h1>The Team</h1>
-<p>Small but effective.</p>
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="profile.png" class="about-image
-  round " style="height: 20em; width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dean Marchiori</h1>
-<p class="subtitle lead">Director | Principal Statistician</p>
+<h1 class="title">Anomaly detection and cluster analysis for financial crime detection</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/deanmarchiori" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://www.linkedin.com/in/deanmarchiori" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/deanmarchiori/CV/raw/master/CV/CV.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-pdf"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>Dean Marchiori is an applied mathematician and specialist in statistical analysis, data science and R programming. He is the Director and Principal Statistician at <a href="https://www.wavedatalabs.com.au/">Wave Data Labs</a> and co-chair of the Statistical Society of Australia’s section for statistical computing and visualisation. Previously Dean was also a sessional teaching academic in the School of Mathematical and Physical Sciences at Macquarie University. His areas of specialisation are in time series modelling &amp; anomaly detection, geospatial analytics, unsupervised clustering methods and the R programming language. Dean obtained his Bachelor of Science in Mathematics with University Medal from Charles Sturt University. He also holds a Master of Applied Finance degree, and a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize. Dean holds the Accredited Statistician (AStat) qualification from the Statistical Society of Australia and was named one of the top 10 analytics professionals in Australia by the Institute of Analytics Professionals of Australia (IAPA).</p>
-<p>For more info you can go to <a href="https://www.deanmarchiori.com">deanmarchiori.com</a></p>
-</div></div>
-</div>
 
 
+<p>Financial crime has become increasingly complex. Criminals are leveraging intricate methods to conceal illicit activities, making it vital for organizations to stay ahead by using advanced analytical techniques. One such method involves using anomaly detection and cluster analysis on corporate registry data to identify suspicious behavior that could indicate financial crime.</p>
+<section id="the-challenge" class="level3">
+<h3 class="anchored" data-anchor-id="the-challenge">The Challenge</h3>
+<p>Corporate registries contain vast amounts of data, including details about company ownership, financial statements, and director relationships. However, this data is often riddled with hidden patterns that can be difficult to detect manually. Traditional methods of identifying financial crime, such as rule-based systems, can miss subtle indicators or produce a high number of false positives, leading to inefficient investigations.</p>
+</section>
+<section id="the-approach" class="level3">
+<h3 class="anchored" data-anchor-id="the-approach">The Approach</h3>
+<p>To tackle this challenge, our consulting team implemented a two-pronged approach: anomaly detection and cluster analysis.</p>
+<p><strong>1. Anomaly Detection:</strong><br>
+We began by using anomaly detection algorithms<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> to flag data points that deviated significantly from the norm. These anomalies might represent unusual ownership structures, abnormal financial transactions, or unexpected changes in company status. By focusing on outliers, we could pinpoint entities that required further investigation, reducing the noise from the vast dataset.</p>
+<p><strong>2. Cluster Analysis:</strong><br>
+Next, we applied cluster analysis techniques to group companies with similar characteristics. This allowed us to identify clusters of companies that exhibited similar patterns, such as shared directors, common addresses, or similar financial behaviors. Once these clusters were identified, we could then analyze whether certain groups were more prone to suspicious activities, such as shell companies used for money laundering.</p>
+</section>
+<section id="the-results" class="level3">
+<h3 class="anchored" data-anchor-id="the-results">The Results</h3>
+<p>By combining anomaly detection with cluster analysis, our approach provided a more nuanced understanding of the corporate registry data. We were able to:</p>
+<ul>
+<li><strong>Identify hidden networks</strong> of companies potentially involved in financial crime.</li>
+<li><strong>Prioritize investigations</strong> by focusing on high-risk clusters and outliers.</li>
+<li><strong>Reduce false positives</strong> by filtering out benign anomalies that would typically clog up the investigative process.</li>
+</ul>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>Anomaly detection and cluster analysis proved to be powerful tools in detecting financial crime within corporate registry data. By leveraging these advanced analytical methods, organizations can enhance their ability to uncover hidden risks, protect their reputation, and maintain compliance with regulatory requirements. As financial crime becomes increasingly sophisticated, these techniques will continue to play a critical role in safeguarding the financial system.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Specific details of the client relationship, methods and code are confidential and cannot be released.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -351,6 +363,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -742,7 +761,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../../index.html">
 <p>Copyright 2024, Wave Data Labs Pty Ltd.</p>
 </a>
   </li>  

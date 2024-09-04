@@ -3,11 +3,9 @@ title: "Contact"
 format: html
 ---
 
-Let's build something cool together!
-
 {{< fa envelope title="An envelope" size=2xl >}} [info@wavedatalabs.com.au](mailto:info@wavedatalabs.com.au)  
 
-{{< fa calendar-days size=2xl >}} [Book a meeting](https://calendly.com/wavedata)  
+{{< fa calendar-days size=2xl >}} [Book a meeting](../book/index.qmd)    
 
 <!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
