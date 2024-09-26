@@ -79,14 +79,14 @@
   {
     "objectID": "services/2024-01-01-service-5/index.html",
     "href": "services/2024-01-01-service-5/index.html",
-    "title": "Customer segmentation and recommender system build for financial services company",
+    "title": "Customer segmentation and recommender system build for e-commerce company",
     "section": "",
-    "text": "Our client, a leading online retail company1, wanted to deepen its understanding of customer behavior to improve retention and drive more targeted marketing campaigns. The company had a vast amount of transaction data but lacked a systematic approach to segment customers and personalize recommendations. The goal was to leverage this data to create distinct customer segments and recommend relevant products or services."
+    "text": "Our client, a leading e-commerce company1, wanted to deepen its understanding of customer behavior to improve retention and drive more targeted marketing campaigns. The company had a vast amount of transaction data but lacked a systematic approach to segment customers and personalize recommendations. The goal was to leverage this data to create distinct customer segments and recommend relevant products or services."
   },
   {
     "objectID": "services/2024-01-01-service-5/index.html#footnotes",
     "href": "services/2024-01-01-service-5/index.html#footnotes",
-    "title": "Customer segmentation and recommender system build for financial services company",
+    "title": "Customer segmentation and recommender system build for e-commerce company",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nName and industry changed/withheld to respect client privacy.↩︎\nExact methods used are confidential and cannot be disclosed↩︎"
   },
@@ -95,7 +95,14 @@
     "href": "services/index.html",
     "title": "Data Science & Statistical Consulting Services",
     "section": "",
-    "text": "We specialise in solving real-world, complex problems that have high social impact.\nWe have been trusted by leading organisations around the world including major corporate brands, top universities, not-for-profits & start-ups.\nWe don’t sell hype. We use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value - quickly.\nWhen you work with us, you get the A-Team every time."
+    "text": "We specialise in solving real-world, complex problems that have high social impact.\nWe don’t sell hype. We use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value - quickly."
+  },
+  {
+    "objectID": "services/index.html#trusted-by",
+    "href": "services/index.html#trusted-by",
+    "title": "Data Science & Statistical Consulting Services",
+    "section": "Trusted by",
+    "text": "Trusted by"
   },
   {
     "objectID": "services/index.html#projects-completed",

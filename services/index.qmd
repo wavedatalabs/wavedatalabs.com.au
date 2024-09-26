@@ -6,26 +6,20 @@ listing:
 
 We specialise in solving real-world, complex problems that have high social impact.   
 
-We have been trusted by leading organisations around the world including major corporate brands, top universities, not-for-profits & start-ups.
-
 We don't sell hype. We use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value - quickly.   
-
-When you work with us, you get the A-Team every time.
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-{{< fa chart-line title="chart-line">}}  Statistical Modelling   
-{{< fa square-root-variable title="square-root-variable">}} Advanced Analytics  
-{{< fa atom title="atom">}} Data Analytics Strategy  
-{{< fa robot title="robot">}} Machine Learning / AI 
+{{< fa chart-line title="chart-line">}}  Statistical Modelling and Analysis  
+{{< fa square-root-variable title="square-root-variable">}} Expert R Programming   
+{{< fa robot title="robot">}} Machine Learning 
 :::
 
 ::: {.column width="50%"}
-{{< fa globe title="globe">}} Geospatial Analysis    
-{{< fa magnifying-glass title="magnifying-glass">}} Data Science Discovery    
-{{< fa clipboard title="clipboard">}} Project Management  
-{{< fa database title="A database">}} Infrastructure & Capability Assessments 
+{{< fa globe title="globe">}} Responsible AI Advisory   
+{{< fa magnifying-glass title="magnifying-glass">}} Career Mentoring & Coaching    
+{{< fa clipboard title="clipboard">}} Data Science Training  
 :::
 
 ::::  
@@ -47,7 +41,18 @@ When you work with us, you get the A-Team every time.
 :::
 
 
-::::
+::::  
+
+<hr>  
+
+## Trusted by   
+![](img/kyckr.svg)
+![](img/ecohealth.png)
+![](img/monash.png)
+![](img/irt.png)
+![](img/mitre10.png)
+![](img/scalapay.png)
+
 
 <hr>  
 
