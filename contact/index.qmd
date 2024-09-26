@@ -3,6 +3,7 @@ title: "Contact"
 format: html
 ---
 
+
 {{< fa envelope title="An envelope" size=2xl >}} [info@wavedatalabs.com.au](mailto:info@wavedatalabs.com.au)  
 
 {{< fa calendar-days size=2xl >}} [Book a meeting](../book/index.qmd)    
@@ -17,3 +18,4 @@ format: html
 
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13167.742190559353!2d150.8980983!3d-34.4029841!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25b6bae46e29269d%3A0xe710ddb58561089b!2sWave%20Data%20Labs!5e0!3m2!1sen!2sau!4v1691987084501!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
