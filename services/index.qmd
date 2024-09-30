@@ -1,12 +1,13 @@
 ---
 title: "Data Science & Statistical Consulting Services"
+subtitle: "All science, no hype."
 listing: 
   sort: "title desc"
 ---
 
-We specialise in solving real-world, complex problems that have high social impact.   
+We specialise in solving real-world, complex data problems that have high social impact.   
 
-We don't sell hype. We use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value - quickly.   
+We use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value.   
 
 :::: {.columns}
 
@@ -32,8 +33,7 @@ We don't sell hype. We use cutting-edge techniques in applied mathematics, stati
 :::
 
 ::: {.column width="30%"}
-[Work with us](../contact/index.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Work with us"}  
-
+<a href="../contact/index.qmd" class="btn btn-outline-info btn-lg active" role="button" aria-pressed="true">Get started!</a>
 :::
 
 ::: {.column width="35%"}
