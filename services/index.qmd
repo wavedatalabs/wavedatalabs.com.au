@@ -53,7 +53,18 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 ![](img/mitre10.png)
 ![](img/scalapay.png)
 
+:::: {.columns}
 
-<hr>  
+::: {.column width="50%"}
+>*You were able to work toward our goals, making suggestions to improve the workflow and then execute those suggestions in the code. You were friendly, thoughtful and hard working. We're really happy with the package you delivered. Thanks!*  
+- Dr Melinda Rostal, EcoHealth Alliance
+:::
+
+::: {.column width="50%"}
+
+:::
+
+::::  
+
 
 ## Projects Completed
