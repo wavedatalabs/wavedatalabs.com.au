@@ -57,11 +57,14 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 
 ::: {.column width="50%"}
 >*You were able to work toward our goals, making suggestions to improve the workflow and then execute those suggestions in the code. You were friendly, thoughtful and hard working. We're really happy with the package you delivered. Thanks!*  
-- Dr Melinda Rostal, EcoHealth Alliance
+- Dr Melinda Rostal  
+Principal Scientist, EcoHealth Alliance
 :::
 
 ::: {.column width="50%"}
-
+>*Dean's ability to unpack problems, package, engage, present, influence, validate, mentor and resolve is fantastic and highly sought after.*  
+- Paul Oyston  
+Group Head of IT Data Analytics, IRT Group
 :::
 
 ::::  
