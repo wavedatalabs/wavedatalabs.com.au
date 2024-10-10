@@ -43,7 +43,6 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 
 ::::  
 
-<hr>  
 
 ## Trusted by   
 ![](img/kyckr.svg)
