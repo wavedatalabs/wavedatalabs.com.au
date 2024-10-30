@@ -45,12 +45,13 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 
 
 ## Trusted by   
-![](img/kyckr.svg)
+![](img/kyckr.png)
 ![](img/ecohealth.png)
 ![](img/monash.png)
 ![](img/irt.png)
 ![](img/mitre10.png)
 ![](img/scalapay.png)
+
 
 :::: {.columns}
 
