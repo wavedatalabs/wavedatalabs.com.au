@@ -5,7 +5,7 @@ listing:
   sort: "title desc"
 ---
 
-We specialise in helping science & technology start-ups and scale-ups innovate rapidly and build their data science capability.   
+We are a data science consulting practice specialising in helping science & technology start-ups and scale-ups innovate rapidly and build their data science capability. Unlike our competitors we use data and maths, not AI and hype.    
 
 We use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value.   
 

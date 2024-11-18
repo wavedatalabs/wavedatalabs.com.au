@@ -1,5 +1,5 @@
 ---
-title: "Data Science Consulting."
+title: "We are a data science consulting practice helping science & technology teams innovate faster with data and maths. Not hype."
 about:
   id: hero-heading
   template: jolla
@@ -17,7 +17,7 @@ format: html
 
 :::{#hero-heading}
 
-We help science & technology teams innovate faster with data and maths. Not hype.
+
 
 :::
 
