@@ -2,7 +2,7 @@
 title: "Data Science & Statistical Consulting Services"
 subtitle: "All science, no hype."
 listing: 
-  sort: "title desc"
+  type: "grid"
 ---
 
 We are a data science consulting practice specialising in helping science & technology start-ups and scale-ups innovate rapidly and build their data science capability. Unlike our competitors we use data and maths, not AI and hype.    
@@ -53,21 +53,38 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 ![](img/scalapay.png)
 
 
-:::: {.columns}
 
-::: {.column width="50%"}
->*You were able to work toward our goals, making suggestions to improve the workflow and then execute those suggestions in the code. You were friendly, thoughtful and hard working. We're really happy with the package you delivered. Thanks!*  
-- Dr Melinda Rostal  
-Principal Scientist, EcoHealth Alliance
-:::
+```{=html}
+<div class="testimonial-box">
+  <div class="testimonial-content">
+    <div class="client-photo">
+      <img src="img/test_1.png" alt="Client Photo" />
+    </div>
+    <div class="testimonial-text">
+      <blockquote>
+        "You were able to work toward our goals, making suggestions to improve the workflow and then execute those suggestions in the code. You were friendly, thoughtful and hard working. We're really happy with the package you delivered. Thanks!"
+      </blockquote>
+      <p class="client-name">Dr Melinda Rostal, Principal Scientist, EcoHealth Alliance</p>
+    </div>
+  </div>
+</div>
+```
 
-::: {.column width="50%"}
->*Dean's ability to unpack problems, package, engage, present, influence, validate, mentor and resolve is fantastic and highly sought after.*  
-- Paul Oyston  
-Group Head of IT Data Analytics, IRT Group
-:::
-
-::::  
+```{=html}
+<div class="testimonial-box">
+  <div class="testimonial-content">
+    <div class="client-photo">
+      <img src="img/test_2.png" alt="Client Photo" />
+    </div>
+    <div class="testimonial-text">
+      <blockquote>
+        "Dean's ability to unpack problems, package, engage, present, influence, validate, mentor and resolve is fantastic and highly sought after."
+      </blockquote>
+      <p class="client-name">Paul Oyston, Group Head of IT Data Analytics, IRT Group</p>
+    </div>
+  </div>
+</div>
+```
 
 
 ## Projects Completed
