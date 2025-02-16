@@ -1,8 +1,10 @@
 ---
 title: "Anomaly detection and cluster analysis for financial crime detection"  
 image: "featured.jpg"  
+date: "2024-02-02"
 ---
 
+![](featured.jpg)  
 Financial crime has become increasingly complex. Criminals are leveraging intricate methods to conceal illicit activities, making it vital for organizations to stay ahead by using advanced analytical techniques. One such method involves using anomaly detection and cluster analysis on corporate registry data to identify suspicious behavior that could indicate financial crime.
 
 ### The Challenge

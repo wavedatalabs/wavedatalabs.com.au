@@ -3,6 +3,7 @@ title: "Data Systems and Analytics for Vector-Borne Disease Threat Reduction"
 subtitle: "A real-world case study of reproducible workflows"
 categories: [Analysis, R]
 image: "featured.png"
+date: "2024-06-06"
 editor_options: 
   chunk_output_type: console
 execute: 
@@ -10,6 +11,8 @@ execute:
   warning: false 
   message: false
 ---  
+
+![](featured.png)
 
 Earlier this year I was fortunate enough to work with EcoHealth Alliance on a 
 major project focused on two WHO priority zoonoses, Rift Valley fever virus and 

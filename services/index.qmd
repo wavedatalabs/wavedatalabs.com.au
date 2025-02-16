@@ -1,8 +1,9 @@
 ---
 title: "Data Science & Statistical Consulting Services"
 subtitle: "All science, no hype."
-listing: 
+listing:
   type: "grid"
+  sort: "date desc"
 ---
 
 We are a data science consulting practice specialising in helping science & technology start-ups and scale-ups innovate rapidly and build their data science capability. Unlike our competitors we use data and maths, not AI and hype.    
@@ -48,11 +49,29 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 ![](img/kyckr.png)
 ![](img/ecohealth.png)
 ![](img/monash.png)
-![](img/irt.png)
 ![](img/mitre10.png)
 ![](img/scalapay.png)
+![](img/irt.png)
+<img src="img/aptonow.png" class="center">
 
 
+
+
+```{=html}
+<div class="testimonial-box">
+  <div class="testimonial-content">
+    <div class="client-photo">
+      <img src="img/img_testimonial.jpeg" alt="Client Photo" />
+    </div>
+    <div class="testimonial-text">
+      <blockquote>
+        "Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility. They were able to quickly identify and scope critical improvements to our data model and machine learning algorithms. As well as producing high-quality technical outputs, Wave Data Labs worked in a way that uplifted the capability of our internal team, delivering lasting improvements to our ways of working."
+      </blockquote>
+      <p class="client-name">Tom O’Connor, CEO AptoNow</p>
+    </div>
+  </div>
+</div>
+```  
 
 ```{=html}
 <div class="testimonial-box">
@@ -85,6 +104,5 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
   </div>
 </div>
 ```
-
 
 ## Projects Completed
