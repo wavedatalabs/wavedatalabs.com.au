@@ -38,11 +38,6 @@
     border-radius: 8px; /* Optional: for rounded corners */
 }
 
-.navbar {
-    background-color: #2A6496 !important;
-    color: #7FCDFF !important;
-}
-
 .center {
   display: block;
   margin-left: auto;

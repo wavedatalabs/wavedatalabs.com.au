@@ -34,7 +34,8 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 :::
 
 ::: {.column width="30%"}
-<a href="../contact/index.qmd" class="btn btn-outline-info btn-lg active" role="button" aria-pressed="true">Get started!</a>
+<br>
+<a href="../contact/index.qmd" class="btn btn-outline-primary btn-lg active" role="button" aria-pressed="true">Get started!</a>
 :::
 
 ::: {.column width="35%"}
@@ -46,15 +47,8 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 
 
 ## Trusted by   
-![](img/kyckr.png)
-![](img/ecohealth.png)
-![](img/monash.png)
-![](img/mitre10.png)
-![](img/scalapay.png)
-![](img/irt.png)
-<img src="img/aptonow.png" class="center">
 
-
+![](img/client_logo.png)
 
 
 ```{=html}
@@ -106,3 +100,10 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 ```
 
 ## Projects Completed
+
+
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/wavedata', text: 'Schedule a time to chat', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
+<!-- Calendly badge widget end -->

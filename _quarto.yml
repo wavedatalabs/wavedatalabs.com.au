@@ -7,8 +7,9 @@ website:
   description: "Data Science and Statistical Consulting"
   favicon: img/logo.png
   open-graph: true
-  google-analytics: "UA-XXXXXXXX"
   navbar:
+    background: "#ffffff"
+    title: false
     logo: img/logo.png
     left:
       - href: index.qmd
@@ -26,12 +27,12 @@ website:
   page-footer:
     background: "#FF000000"
     center:
-      - text: "Copyright 2024, Wave Data Labs Pty Ltd."
+      - text: "Copyright 2025, Wave Data Labs Pty Ltd."
         href: index.qmd
   
 format:
   html:
-    theme: flatly
+    theme: defaults
     css: styles.css
     toc: false
 
