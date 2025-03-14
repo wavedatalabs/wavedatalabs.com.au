@@ -46,58 +46,6 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 ::::  
 
 
-## Trusted by   
-
-![](img/client_logo.png)
-
-
-```{=html}
-<div class="testimonial-box">
-  <div class="testimonial-content">
-    <div class="client-photo">
-      <img src="img/img_testimonial.jpeg" alt="Client Photo" />
-    </div>
-    <div class="testimonial-text">
-      <blockquote>
-        "Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility. They were able to quickly identify and scope critical improvements to our data model and machine learning algorithms. As well as producing high-quality technical outputs, Wave Data Labs worked in a way that uplifted the capability of our internal team, delivering lasting improvements to our ways of working."
-      </blockquote>
-      <p class="client-name">Tom O’Connor, CEO AptoNow</p>
-    </div>
-  </div>
-</div>
-```  
-
-```{=html}
-<div class="testimonial-box">
-  <div class="testimonial-content">
-    <div class="client-photo">
-      <img src="img/test_1.png" alt="Client Photo" />
-    </div>
-    <div class="testimonial-text">
-      <blockquote>
-        "You were able to work toward our goals, making suggestions to improve the workflow and then execute those suggestions in the code. You were friendly, thoughtful and hard working. We're really happy with the package you delivered. Thanks!"
-      </blockquote>
-      <p class="client-name">Dr Melinda Rostal, Principal Scientist, EcoHealth Alliance</p>
-    </div>
-  </div>
-</div>
-```
-
-```{=html}
-<div class="testimonial-box">
-  <div class="testimonial-content">
-    <div class="client-photo">
-      <img src="img/test_2.png" alt="Client Photo" />
-    </div>
-    <div class="testimonial-text">
-      <blockquote>
-        "Dean's ability to unpack problems, package, engage, present, influence, validate, mentor and resolve is fantastic and highly sought after."
-      </blockquote>
-      <p class="client-name">Paul Oyston, Group Head of IT Data Analytics, IRT Group</p>
-    </div>
-  </div>
-</div>
-```
 
 ## Projects Completed
 
