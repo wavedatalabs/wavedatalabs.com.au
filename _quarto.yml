@@ -16,14 +16,12 @@ website:
         text: Home
       - href: services/index.qmd  
         text: Services
+      - href: pricing.qmd  
+        text: Pricing
       - href: about/index.qmd
         text: Team
       - href: contact/index.qmd
         text: Contact
-    right: 
-      - icon: envelope
-        href: contact/index.qmd
-        text: REQUEST A QUOTE
   page-footer:
     background: "#FF000000"
     center:

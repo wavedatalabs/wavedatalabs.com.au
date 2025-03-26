@@ -35,7 +35,7 @@ We use cutting-edge techniques in applied mathematics, statistical modelling and
 
 ::: {.column width="30%"}
 <br>
-<a href="../contact/index.qmd" class="btn btn-outline-primary btn-lg active" role="button" aria-pressed="true">Get started!</a>
+<a href="../pricing.qmd" class="btn btn-outline-primary btn-lg active" role="button" aria-pressed="true">Get started!</a>
 :::
 
 ::: {.column width="35%"}

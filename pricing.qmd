@@ -1,0 +1,58 @@
+---
+title: "Pricing Plans"
+format: html
+---
+
+We are one the only technical consulting practices to offer a **subscription based model** for our fees. We value long term trust and flexibility over billable hours. 
+
+💡 **Consistent, ongoing support** – No more scrambling to find help when you need it.  
+📊 **Flexible, scalable plans** – Get the right level of expertise without hiring full-time staff.   
+💰  **Predictable pricing** – Fixed monthly costs mean no surprise invoices.  
+⏳**Faster Execution** - We stay embedded in your data work, so we hit the ground running.   
+
+Can't see anything that fits? Looking for a fixed price quote? [Get in touch and let's chat.](/contact)
+```{=html}
+<body>
+    <div class="container">
+        <div class="plan">
+            <h3>Advisory Tier</h3>
+            <p>$500<small>/month</small></p>
+            <ul>
+                <li>Limited scheduled Zoom meetings</li>
+                <li>Half day workshop or training per month</li>
+                <li>Advisory only</li>
+                <li>Email support</li>
+                <li>Cancel anytime</li>
+            </ul>
+            <a href="https://calendly.com/wavedata/new-subscription" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Select</a>
+        </div>
+        <div class="plan">
+            <h3>Basic Tier</h3>
+            <p>$4,500<small>/month</small></p>
+            <ul>
+                <li>Weekly scheduled Zoom meetings</li>
+                <li>Up to 3 days consulting or project work per month</li>
+                <li>Access to <a href=img/rates_2025.pdf> discounted rates </a>for additional projects</li>
+                <li>Cancel anytime</li>
+            </ul>
+            <a href="https://calendly.com/wavedata/new-subscription" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Select</a>
+        </div>
+        <div class="plan">
+            <h3>Pro Tier</h3>
+            <p>$6,000<small>/month</small></p>
+            <ul>
+                <li>Unlimited scheduled Zoom meetings</li>
+                <li>Up to 5 days consulting or project work per month</li>
+                <li>Access to <a href=img/rates_2025.pdf> discounted rates </a>for additional projects</li>
+                <li>Cancel anytime</li>
+            </ul>
+            <a href="https://calendly.com/wavedata/new-subscription" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Select</a>
+        </div>
+    </div>
+    <small>Pricing and offerings subject to change. Subject to agreed terms and conditions</small>
+</body>
+```
+
+<br> 
+
+

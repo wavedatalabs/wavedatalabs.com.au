@@ -44,3 +44,58 @@
   margin-right: auto;
   width: 40%;
 }
+
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.plan {
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%; 
+    min-width: 280px; 
+}
+.plan h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.plan p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.plan ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+.plan ul li::before {
+    content: "✔️"; /* Unicode checkmark */
+    color: green;
+    margin-right: 8px;
+    font-weight: bold;
+}
+.plan button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.plan button:hover {
+    background: #1e40af;
+}

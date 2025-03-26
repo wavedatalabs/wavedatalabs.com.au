@@ -1,157 +1,10 @@
 [
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Dean Marchiori",
+    "objectID": "pricing.html",
+    "href": "pricing.html",
+    "title": "Pricing Plans",
     "section": "",
-    "text": "Contact Me\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \nDean Marchiori is an applied statistician and founder of Wave Data Labs an independent data science consulting practice. He is co-chair of the Statistical Society of Australia’s section for statistical computing and visualisation. Previously Dean was a sessional teaching academic in the School of Mathematical and Physical Sciences at Macquarie University. His areas of specialisation are in time series modelling & anomaly detection, geospatial analytics, unsupervised clustering methods and the R programming language. Dean obtained his Bachelor of Science in Mathematics with University Medal from Charles Sturt University. He also holds a Master of Applied Finance degree, and a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize. Dean holds the Accredited Statistician (AStat) qualification from the Statistical Society of Australia and was named one of the top 10 analytics professionals in Australia by the Institute of Analytics Professionals of Australia (IAPA)."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "We are a data science consulting practice helping science & technology teams innovate faster with data and maths. Not hype.",
-    "section": "",
-    "text": "Book a meeting\n  \n  \n    \n     Get in Touch\n  \n\n\n\n\n\n  \n    \n      \n    \n    \n      \n        \"Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility. They were able to quickly identify and scope critical improvements to our data model and machine learning algorithms. As well as producing high-quality technical outputs, Wave Data Labs worked in a way that uplifted the capability of our internal team, delivering lasting improvements to our ways of working.\"\n      \n      Tom O’Connor, CEO AptoNow\n    \n  \n\n\n  \n    \n      \n    \n    \n      \n        \"You were able to work toward our goals, making suggestions to improve the workflow and then execute those suggestions in the code. You were friendly, thoughtful and hard working. We're really happy with the package you delivered. Thanks!\"\n      \n      Dr Melinda Rostal, Principal Scientist, EcoHealth Alliance\n    \n  \n\n\n  \n    \n      \n    \n    \n      \n        \"Dean's ability to unpack problems, package, engage, present, influence, validate, mentor and resolve is fantastic and highly sought after.\"\n      \n      Paul Oyston, Group Head of IT Data Analytics, IRT Group"
-  },
-  {
-    "objectID": "services/2024-01-01-service-3/index.html",
-    "href": "services/2024-01-01-service-3/index.html",
-    "title": "Youth mental health geospatial hotspot analysis",
-    "section": "",
-    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nThe hot spot methods involved using a geospatial analytics technique for uncovering local areas of spatial association.\nFull source code can be viewed on Github"
-  },
-  {
-    "objectID": "services/2024-01-01-service-3/index.html#project",
-    "href": "services/2024-01-01-service-3/index.html#project",
-    "title": "Youth mental health geospatial hotspot analysis",
-    "section": "",
-    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nThe hot spot methods involved using a geospatial analytics technique for uncovering local areas of spatial association.\nFull source code can be viewed on Github"
-  },
-  {
-    "objectID": "services/2024-01-01-service-3/index.html#outcomes",
-    "href": "services/2024-01-01-service-3/index.html#outcomes",
-    "title": "Youth mental health geospatial hotspot analysis",
-    "section": "Outcomes",
-    "text": "Outcomes\nThis analysis of census data reveals youth mental health hot spots: areas with higher mental health diagnosis rates in young people than neighbouring areas.\nTo reference this analysis see here"
-  },
-  {
-    "objectID": "services/2024-10-11-eco/index.html",
-    "href": "services/2024-10-11-eco/index.html",
-    "title": "Data Systems and Analytics for Vector-Borne Disease Threat Reduction",
-    "section": "",
-    "text": "Earlier this year I was fortunate enough to work with EcoHealth Alliance on a major project focused on two WHO priority zoonoses, Rift Valley fever virus and Crimean-Congo hemorrhagic fever virus. Over a 10 year period, research teams sampled over 800 people and livestock, sampled over 300 rodents, and conducted ecological site characterizations at 150 sites in each Tanzania and South Africa.\nTo integrate data from disparate datasets we developed a novel R pipeline to standardize data cleaning, quality control and integration following reproducible science principals. This was one of the first projects of this scale that I have seen using so many tools that align to current industry best practice:\n\nVersion controlled code in Github with strict code review\nFull CI/CD automation with Github Actions\n\n{targets} as a pipeline tool\n\nR package to store and document all functions\n\n{renv} for package dependency management\n\nProper encrypted environment files for all credentials\n\nA common deterrent I hear from beginners around using tools to aid reproducibility in R code often center around the barriers to entry. They are seen as adding complexity and overhead into the process. Which they do (on small projects), but as projects become more and more complex, the benefits quickly outweigh the costs.\nAn overview of this project was given as a poster at the recent 8th World One Health Congress in Cape Town\n\n\nWant to read more? Sign up to my mailing list here for weekly emails and no spam.\nLooking for a data science consultant? Feel free to get in touch at wavedatalabs.com.au"
-  },
-  {
-    "objectID": "services/2024-01-01-service-4/index.html",
-    "href": "services/2024-01-01-service-4/index.html",
-    "title": "Analysis and mapping of access to Assisted Reproductive Technologies",
-    "section": "",
-    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code available on Github"
-  },
-  {
-    "objectID": "services/2024-01-01-service-4/index.html#project",
-    "href": "services/2024-01-01-service-4/index.html#project",
-    "title": "Analysis and mapping of access to Assisted Reproductive Technologies",
-    "section": "",
-    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code available on Github"
-  },
-  {
-    "objectID": "services/2024-01-01-service-4/index.html#outcomes",
-    "href": "services/2024-01-01-service-4/index.html#outcomes",
-    "title": "Analysis and mapping of access to Assisted Reproductive Technologies",
-    "section": "Outcomes",
-    "text": "Outcomes\nOver half a million Australians live more than 240km from an Assisted reproductive technology clinic and would likely have to sleep nearby in order to visit.\nTo reference this analysis see here"
-  },
-  {
-    "objectID": "services/2024-01-01-service-2/index.html",
-    "href": "services/2024-01-01-service-2/index.html",
-    "title": "Anomaly detection and cluster analysis for financial crime detection",
-    "section": "",
-    "text": "Financial crime has become increasingly complex. Criminals are leveraging intricate methods to conceal illicit activities, making it vital for organizations to stay ahead by using advanced analytical techniques. One such method involves using anomaly detection and cluster analysis on corporate registry data to identify suspicious behavior that could indicate financial crime."
-  },
-  {
-    "objectID": "services/2024-01-01-service-2/index.html#footnotes",
-    "href": "services/2024-01-01-service-2/index.html#footnotes",
-    "title": "Anomaly detection and cluster analysis for financial crime detection",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSpecific details of the client relationship, methods and code are confidential and cannot be released.↩︎"
-  },
-  {
-    "objectID": "contact/index.html",
-    "href": "contact/index.html",
-    "title": "Wave Data Labs",
-    "section": "",
-    "text": "info@wavedatalabs.com.au\n Book a meeting\n Ground Floor, Enterprise 1, Innovation Campus, Squires Way, North Wollongong NSW 2500"
-  },
-  {
-    "objectID": "services/2024-01-01-service-5/index.html#footnotes",
-    "href": "services/2024-01-01-service-5/index.html#footnotes",
-    "title": "Customer segmentation and recommender system build for e-commerce company",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nName and industry changed/withheld to respect client privacy.↩︎\nExact methods used are confidential and cannot be disclosed↩︎"
-  },
-  {
-    "objectID": "services/index.html",
-    "href": "services/index.html",
-    "title": "Data Science & Statistical Consulting Services",
-    "section": "",
-    "text": "We are a data science consulting practice specialising in helping science & technology start-ups and scale-ups innovate rapidly and build their data science capability. Unlike our competitors we use data and maths, not AI and hype.\nWe use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value."
-  },
-  {
-    "objectID": "services/index.html#projects-completed",
-    "href": "services/index.html#projects-completed",
-    "title": "Data Science & Statistical Consulting Services",
-    "section": "Projects Completed",
-    "text": "Projects Completed"
-  },
-  {
-    "objectID": "services/2025-02-17-service-apto/index.html",
-    "href": "services/2025-02-17-service-apto/index.html",
-    "title": "Case Study: Innovating Faster with Data Science",
-    "section": "",
-    "text": "AptoNow is an innovative technology business with a mission to be the world’s leading co-pilot for higher education institutions. To support and accelerate their product development priorities, AptoNow engaged Wave Data Labs, a data science consulting practice that helps science and technology teams innovate faster and scale their data science capability.\nIn just 3 months this engagement helped the team at AptoNow:"
-  },
-  {
-    "objectID": "services/2025-02-17-service-apto/index.html#aptonows-challenges-and-key-objectives",
-    "href": "services/2025-02-17-service-apto/index.html#aptonows-challenges-and-key-objectives",
-    "title": "Case Study: Innovating Faster with Data Science",
-    "section": "AptoNow’s challenges and key objectives",
-    "text": "AptoNow’s challenges and key objectives\nAptoNow empowers their clients to deliver exceptional student experiences through advanced data and AI-assisted technology to solve complex challenges around timetable optimisation, student engagement, space optimisation and auto-scheduling. The team were at an inflection point where they wanted to continue scaling both their client servicing projects and the continued development of their core data products. In the face of a growing and complex code-base, the AptoNow team wanted to maintain client focus and needed technical solutions that would help them realise immediate value without the cost, overhead and risk of hiring additional full-time data scientists until they were ready.\nAptoNow’s goals with this engagement were to:\n\nFind a technical expert in mathematical modelling, R programming and their preferred tech stack.\n\nFind a consultant who understands not only the technical but also the commercial and business objectives.\n\nEnable value quickly and affordably so the core team could focus working with their clients to ensure they were always solving the right problems.\n\n\n“Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility” says AptoNow CEO, Tom O’Connor."
-  },
-  {
-    "objectID": "services/2025-02-17-service-apto/index.html#wave-data-labs-approach-and-methodology",
-    "href": "services/2025-02-17-service-apto/index.html#wave-data-labs-approach-and-methodology",
-    "title": "Case Study: Innovating Faster with Data Science",
-    "section": "Wave Data Lab’s approach and methodology",
-    "text": "Wave Data Lab’s approach and methodology\nThe engagement with Dean and Wave Data Labs offered a low risk, high reward approach with a two-stage implementation:\nStage 1: One day on-site rapid review and diagnostic report: This phase focused on three technical elements: Speed, Scalability and Stability. The outputs were 7 clear, technical recommendations that were achievable across three ‘horizons’ that aligned to the value proposition AptoNow had committed to delivering to their clients.\nStep 2: Hands-on delivery of high-value improvements: Following this Wave Data Labs partnered closely with the engineering and product team at AptoNow to do hands-on work to implement these ideas and make them a reality. From a technical perspective this covered:\n\nReproducibility and code dependency management\n\nImplementing data pipeline tools\n\nAlgorithm review and re-factoring tech debt\n\nWorking flexibly and pivoting to solve critical client needs when required."
-  },
-  {
-    "objectID": "services/2025-02-17-service-apto/index.html#results-and-impact",
-    "href": "services/2025-02-17-service-apto/index.html#results-and-impact",
-    "title": "Case Study: Innovating Faster with Data Science",
-    "section": "Results and impact",
-    "text": "Results and impact\nOver three months, Wave Data Labs was able to partner with AptoNow to deliver several tangible benefits:\n\nThe team is now able to review and test new client features in minutes rather than hours.\n\nAt all times there is complete assurance and stability of the core product performance.\n\nThe code base and its orchestration are simpler and in line with industry best practice, setting the team up for scaling and hiring additional developers to support their clients growth.\n\n\n  \n    \n      \n    \n    \n      \n        \"Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility. They were able to quickly identify and scope critical improvements to our data model and machine learning algorithms. As well as producing high-quality technical outputs, Wave Data Labs worked in a way that uplifted the capability of our internal team, delivering lasting improvements to our ways of working.\"\n      \n      Tom O’Connor, CEO AptoNow"
-  },
-  {
-    "objectID": "services/2024-01-01-service-1/index.html",
-    "href": "services/2024-01-01-service-1/index.html",
-    "title": "Australian Bushfire Risk Analysis & Mapping",
-    "section": "",
-    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code can be viewed on Github"
-  },
-  {
-    "objectID": "services/2024-01-01-service-1/index.html#project",
-    "href": "services/2024-01-01-service-1/index.html#project",
-    "title": "Australian Bushfire Risk Analysis & Mapping",
-    "section": "",
-    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code can be viewed on Github"
-  },
-  {
-    "objectID": "services/2024-01-01-service-1/index.html#outcomes",
-    "href": "services/2024-01-01-service-1/index.html#outcomes",
-    "title": "Australian Bushfire Risk Analysis & Mapping",
-    "section": "Outcomes",
-    "text": "Outcomes\n360info has collated data from New South Wales (below), and all other states and territories which shows which suburbs are most prone to bushfire. This interactive analysis was the first of its kind to highlight bushfire planning risk for the entire Australian mainland.\nTo reference this analysis see here."
+    "text": "We are one the only technical consulting practices to offer a subscription based model for our fees. We value long term trust and flexibility over billable hours.\n💡 Consistent, ongoing support – No more scrambling to find help when you need it.\n📊 Flexible, scalable plans – Get the right level of expertise without hiring full-time staff.\n💰 Predictable pricing – Fixed monthly costs mean no surprise invoices.\n⏳Faster Execution - We stay embedded in your data work, so we hit the ground running.\nCan’t see anything that fits? Looking for a fixed price quote? Get in touch and let’s chat.\n\n    \n        \n            Advisory Tier\n            $500/month\n            \n                Limited scheduled Zoom meetings\n                Half day workshop or training per month\n                Advisory only\n                Email support\n                Cancel anytime\n            \n            Select\n        \n        \n            Basic Tier\n            $4,500/month\n            \n                Weekly scheduled Zoom meetings\n                Up to 3 days consulting or project work per month\n                Access to  discounted rates for additional projects\n                Cancel anytime\n            \n            Select\n        \n        \n            Pro Tier\n            $6,000/month\n            \n                Unlimited scheduled Zoom meetings\n                Up to 5 days consulting or project work per month\n                Access to  discounted rates for additional projects\n                Cancel anytime\n            \n            Select\n        \n    \n    Pricing and offerings subject to change. Subject to agreed terms and conditions"
   },
   {
     "objectID": "privacy.html",
@@ -222,5 +75,159 @@
     "title": "Privacy Policy",
     "section": "",
     "text": "If you have any queries or complaints about our Privacy Policy please contact us at:\ninfo@wavedatalabs.com.au"
+  },
+  {
+    "objectID": "services/2024-01-01-service-1/index.html",
+    "href": "services/2024-01-01-service-1/index.html",
+    "title": "Australian Bushfire Risk Analysis & Mapping",
+    "section": "",
+    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code can be viewed on Github"
+  },
+  {
+    "objectID": "services/2024-01-01-service-1/index.html#project",
+    "href": "services/2024-01-01-service-1/index.html#project",
+    "title": "Australian Bushfire Risk Analysis & Mapping",
+    "section": "",
+    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code can be viewed on Github"
+  },
+  {
+    "objectID": "services/2024-01-01-service-1/index.html#outcomes",
+    "href": "services/2024-01-01-service-1/index.html#outcomes",
+    "title": "Australian Bushfire Risk Analysis & Mapping",
+    "section": "Outcomes",
+    "text": "Outcomes\n360info has collated data from New South Wales (below), and all other states and territories which shows which suburbs are most prone to bushfire. This interactive analysis was the first of its kind to highlight bushfire planning risk for the entire Australian mainland.\nTo reference this analysis see here."
+  },
+  {
+    "objectID": "services/2025-02-17-service-apto/index.html",
+    "href": "services/2025-02-17-service-apto/index.html",
+    "title": "Case Study: Innovating Faster with Data Science",
+    "section": "",
+    "text": "AptoNow is an innovative technology business with a mission to be the world’s leading co-pilot for higher education institutions. To support and accelerate their product development priorities, AptoNow engaged Wave Data Labs, a data science consulting practice that helps science and technology teams innovate faster and scale their data science capability.\nIn just 3 months this engagement helped the team at AptoNow:"
+  },
+  {
+    "objectID": "services/2025-02-17-service-apto/index.html#aptonows-challenges-and-key-objectives",
+    "href": "services/2025-02-17-service-apto/index.html#aptonows-challenges-and-key-objectives",
+    "title": "Case Study: Innovating Faster with Data Science",
+    "section": "AptoNow’s challenges and key objectives",
+    "text": "AptoNow’s challenges and key objectives\nAptoNow empowers their clients to deliver exceptional student experiences through advanced data and AI-assisted technology to solve complex challenges around timetable optimisation, student engagement, space optimisation and auto-scheduling. The team were at an inflection point where they wanted to continue scaling both their client servicing projects and the continued development of their core data products. In the face of a growing and complex code-base, the AptoNow team wanted to maintain client focus and needed technical solutions that would help them realise immediate value without the cost, overhead and risk of hiring additional full-time data scientists until they were ready.\nAptoNow’s goals with this engagement were to:\n\nFind a technical expert in mathematical modelling, R programming and their preferred tech stack.\n\nFind a consultant who understands not only the technical but also the commercial and business objectives.\n\nEnable value quickly and affordably so the core team could focus working with their clients to ensure they were always solving the right problems.\n\n\n“Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility” says AptoNow CEO, Tom O’Connor."
+  },
+  {
+    "objectID": "services/2025-02-17-service-apto/index.html#wave-data-labs-approach-and-methodology",
+    "href": "services/2025-02-17-service-apto/index.html#wave-data-labs-approach-and-methodology",
+    "title": "Case Study: Innovating Faster with Data Science",
+    "section": "Wave Data Lab’s approach and methodology",
+    "text": "Wave Data Lab’s approach and methodology\nThe engagement with Dean and Wave Data Labs offered a low risk, high reward approach with a two-stage implementation:\nStage 1: One day on-site rapid review and diagnostic report: This phase focused on three technical elements: Speed, Scalability and Stability. The outputs were 7 clear, technical recommendations that were achievable across three ‘horizons’ that aligned to the value proposition AptoNow had committed to delivering to their clients.\nStep 2: Hands-on delivery of high-value improvements: Following this Wave Data Labs partnered closely with the engineering and product team at AptoNow to do hands-on work to implement these ideas and make them a reality. From a technical perspective this covered:\n\nReproducibility and code dependency management\n\nImplementing data pipeline tools\n\nAlgorithm review and re-factoring tech debt\n\nWorking flexibly and pivoting to solve critical client needs when required."
+  },
+  {
+    "objectID": "services/2025-02-17-service-apto/index.html#results-and-impact",
+    "href": "services/2025-02-17-service-apto/index.html#results-and-impact",
+    "title": "Case Study: Innovating Faster with Data Science",
+    "section": "Results and impact",
+    "text": "Results and impact\nOver three months, Wave Data Labs was able to partner with AptoNow to deliver several tangible benefits:\n\nThe team is now able to review and test new client features in minutes rather than hours.\n\nAt all times there is complete assurance and stability of the core product performance.\n\nThe code base and its orchestration are simpler and in line with industry best practice, setting the team up for scaling and hiring additional developers to support their clients growth.\n\n\n  \n    \n      \n    \n    \n      \n        \"Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility. They were able to quickly identify and scope critical improvements to our data model and machine learning algorithms. As well as producing high-quality technical outputs, Wave Data Labs worked in a way that uplifted the capability of our internal team, delivering lasting improvements to our ways of working.\"\n      \n      Tom O’Connor, CEO AptoNow"
+  },
+  {
+    "objectID": "services/index.html",
+    "href": "services/index.html",
+    "title": "Data Science & Statistical Consulting Services",
+    "section": "",
+    "text": "We are a data science consulting practice specialising in helping science & technology start-ups and scale-ups innovate rapidly and build their data science capability. Unlike our competitors we use data and maths, not AI and hype.\nWe use cutting-edge techniques in applied mathematics, statistical modelling and data analysis to deeply understand your problems and work with your experts to add value."
+  },
+  {
+    "objectID": "services/index.html#projects-completed",
+    "href": "services/index.html#projects-completed",
+    "title": "Data Science & Statistical Consulting Services",
+    "section": "Projects Completed",
+    "text": "Projects Completed"
+  },
+  {
+    "objectID": "services/2024-01-01-service-5/index.html#footnotes",
+    "href": "services/2024-01-01-service-5/index.html#footnotes",
+    "title": "Customer segmentation and recommender system build for e-commerce company",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nName and industry changed/withheld to respect client privacy.↩︎\nExact methods used are confidential and cannot be disclosed↩︎"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Wave Data Labs",
+    "section": "",
+    "text": "info@wavedatalabs.com.au\n Book a meeting\n Ground Floor, Enterprise 1, Innovation Campus, Squires Way, North Wollongong NSW 2500"
+  },
+  {
+    "objectID": "services/2024-01-01-service-2/index.html",
+    "href": "services/2024-01-01-service-2/index.html",
+    "title": "Anomaly detection and cluster analysis for financial crime detection",
+    "section": "",
+    "text": "Financial crime has become increasingly complex. Criminals are leveraging intricate methods to conceal illicit activities, making it vital for organizations to stay ahead by using advanced analytical techniques. One such method involves using anomaly detection and cluster analysis on corporate registry data to identify suspicious behavior that could indicate financial crime."
+  },
+  {
+    "objectID": "services/2024-01-01-service-2/index.html#footnotes",
+    "href": "services/2024-01-01-service-2/index.html#footnotes",
+    "title": "Anomaly detection and cluster analysis for financial crime detection",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSpecific details of the client relationship, methods and code are confidential and cannot be released.↩︎"
+  },
+  {
+    "objectID": "services/2024-01-01-service-4/index.html",
+    "href": "services/2024-01-01-service-4/index.html",
+    "title": "Analysis and mapping of access to Assisted Reproductive Technologies",
+    "section": "",
+    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code available on Github"
+  },
+  {
+    "objectID": "services/2024-01-01-service-4/index.html#project",
+    "href": "services/2024-01-01-service-4/index.html#project",
+    "title": "Analysis and mapping of access to Assisted Reproductive Technologies",
+    "section": "",
+    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nFull source code available on Github"
+  },
+  {
+    "objectID": "services/2024-01-01-service-4/index.html#outcomes",
+    "href": "services/2024-01-01-service-4/index.html#outcomes",
+    "title": "Analysis and mapping of access to Assisted Reproductive Technologies",
+    "section": "Outcomes",
+    "text": "Outcomes\nOver half a million Australians live more than 240km from an Assisted reproductive technology clinic and would likely have to sleep nearby in order to visit.\nTo reference this analysis see here"
+  },
+  {
+    "objectID": "services/2024-10-11-eco/index.html",
+    "href": "services/2024-10-11-eco/index.html",
+    "title": "Data Systems and Analytics for Vector-Borne Disease Threat Reduction",
+    "section": "",
+    "text": "Earlier this year I was fortunate enough to work with EcoHealth Alliance on a major project focused on two WHO priority zoonoses, Rift Valley fever virus and Crimean-Congo hemorrhagic fever virus. Over a 10 year period, research teams sampled over 800 people and livestock, sampled over 300 rodents, and conducted ecological site characterizations at 150 sites in each Tanzania and South Africa.\nTo integrate data from disparate datasets we developed a novel R pipeline to standardize data cleaning, quality control and integration following reproducible science principals. This was one of the first projects of this scale that I have seen using so many tools that align to current industry best practice:\n\nVersion controlled code in Github with strict code review\nFull CI/CD automation with Github Actions\n\n{targets} as a pipeline tool\n\nR package to store and document all functions\n\n{renv} for package dependency management\n\nProper encrypted environment files for all credentials\n\nA common deterrent I hear from beginners around using tools to aid reproducibility in R code often center around the barriers to entry. They are seen as adding complexity and overhead into the process. Which they do (on small projects), but as projects become more and more complex, the benefits quickly outweigh the costs.\nAn overview of this project was given as a poster at the recent 8th World One Health Congress in Cape Town\n\n\nWant to read more? Sign up to my mailing list here for weekly emails and no spam.\nLooking for a data science consultant? Feel free to get in touch at wavedatalabs.com.au"
+  },
+  {
+    "objectID": "services/2024-01-01-service-3/index.html",
+    "href": "services/2024-01-01-service-3/index.html",
+    "title": "Youth mental health geospatial hotspot analysis",
+    "section": "",
+    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nThe hot spot methods involved using a geospatial analytics technique for uncovering local areas of spatial association.\nFull source code can be viewed on Github"
+  },
+  {
+    "objectID": "services/2024-01-01-service-3/index.html#project",
+    "href": "services/2024-01-01-service-3/index.html#project",
+    "title": "Youth mental health geospatial hotspot analysis",
+    "section": "",
+    "text": "This project was completed with 360info. 360info is an independent nonprofit public information service with headquarters in Melbourne hosted at Monash University. Monash is Australia’s largest and most globally connected university with campuses around the world.\nThe hot spot methods involved using a geospatial analytics technique for uncovering local areas of spatial association.\nFull source code can be viewed on Github"
+  },
+  {
+    "objectID": "services/2024-01-01-service-3/index.html#outcomes",
+    "href": "services/2024-01-01-service-3/index.html#outcomes",
+    "title": "Youth mental health geospatial hotspot analysis",
+    "section": "Outcomes",
+    "text": "Outcomes\nThis analysis of census data reveals youth mental health hot spots: areas with higher mental health diagnosis rates in young people than neighbouring areas.\nTo reference this analysis see here"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "We are a data science consulting practice helping science & technology teams innovate faster with data and maths. Not hype.",
+    "section": "",
+    "text": "Book a meeting\n  \n  \n    \n     Get in Touch\n  \n\n\n\n\n\n  \n    \n      \n    \n    \n      \n        \"Dean and Wave Data Labs brought a rare combination of high-level technical skill, with seamless collaboration and flexibility. They were able to quickly identify and scope critical improvements to our data model and machine learning algorithms. As well as producing high-quality technical outputs, Wave Data Labs worked in a way that uplifted the capability of our internal team, delivering lasting improvements to our ways of working.\"\n      \n      Tom O’Connor, CEO AptoNow\n    \n  \n\n\n  \n    \n      \n    \n    \n      \n        \"You were able to work toward our goals, making suggestions to improve the workflow and then execute those suggestions in the code. You were friendly, thoughtful and hard working. We're really happy with the package you delivered. Thanks!\"\n      \n      Dr Melinda Rostal, Principal Scientist, EcoHealth Alliance\n    \n  \n\n\n  \n    \n      \n    \n    \n      \n        \"Dean's ability to unpack problems, package, engage, present, influence, validate, mentor and resolve is fantastic and highly sought after.\"\n      \n      Paul Oyston, Group Head of IT Data Analytics, IRT Group"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Dean Marchiori",
+    "section": "",
+    "text": "Contact Me\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \nDean Marchiori is an applied statistician and founder of Wave Data Labs an independent data science consulting practice. He is co-chair of the Statistical Society of Australia’s section for statistical computing and visualisation. Previously Dean was a sessional teaching academic in the School of Mathematical and Physical Sciences at Macquarie University. His areas of specialisation are in time series modelling & anomaly detection, geospatial analytics, unsupervised clustering methods and the R programming language. Dean obtained his Bachelor of Science in Mathematics with University Medal from Charles Sturt University. He also holds a Master of Applied Finance degree, and a Master of Applied Statistics from Macquarie University where he was awarded the Julian Leslie Prize. Dean holds the Accredited Statistician (AStat) qualification from the Statistical Society of Australia and was named one of the top 10 analytics professionals in Australia by the Institute of Analytics Professionals of Australia (IAPA)."
   }
 ]
