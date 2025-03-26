@@ -15,7 +15,7 @@ Can't see anything that fits? Looking for a fixed price quote? [Get in touch and
 <body>
     <div class="container">
         <div class="plan">
-            <h3>Advisory Tier</h3>
+            <h3 class="no-anchor">Advisory Tier</h3>
             <p>$500<small>/month</small></p>
             <ul>
                 <li>Limited scheduled Zoom meetings</li>
@@ -27,7 +27,7 @@ Can't see anything that fits? Looking for a fixed price quote? [Get in touch and
             <a href="https://calendly.com/wavedata/new-subscription" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Select</a>
         </div>
         <div class="plan">
-            <h3>Basic Tier</h3>
+            <h3 class="no-anchor">Basic Tier</h3>
             <p>$4,500<small>/month</small></p>
             <ul>
                 <li>Weekly scheduled Zoom meetings</li>
@@ -38,7 +38,7 @@ Can't see anything that fits? Looking for a fixed price quote? [Get in touch and
             <a href="https://calendly.com/wavedata/new-subscription" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Select</a>
         </div>
         <div class="plan">
-            <h3>Pro Tier</h3>
+            <h3 class="no-anchor">Pro Tier</h3>
             <p>$6,000<small>/month</small></p>
             <ul>
                 <li>Unlimited scheduled Zoom meetings</li>

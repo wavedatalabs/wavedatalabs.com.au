@@ -54,20 +54,25 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .plan {
     background: #f3f4f6;
-    padding: 20px;
+    padding: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 30%; 
-    min-width: 280px; 
+    min-width: 220px; 
 }
 .plan h3 {
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+.no-anchor .anchor {
+  display: none;
+}
+
 .plan p {
     font-size: 24px;
     font-weight: bold;
@@ -80,6 +85,7 @@
 }
 .plan ul li {
     margin-bottom: 5px;
+    font-size: 14px;
     color: #555;
 }
 .plan ul li::before {
