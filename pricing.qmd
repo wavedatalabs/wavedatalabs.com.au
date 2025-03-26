@@ -3,7 +3,7 @@ title: "Pricing Plans"
 format: html
 ---
 
-We are one the only technical consulting practices to offer a **subscription based model** for our fees. We value long term trust and flexibility over billable hours. 
+We are one of the only technical consulting practices to offer a **subscription based model** for our fees. We value long term trust and flexibility over billable hours. 
 
 💡 **Consistent, ongoing support** – No more scrambling to find help when you need it.  
 📊 **Flexible, scalable plans** – Get the right level of expertise without hiring full-time staff.   
