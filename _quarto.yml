@@ -16,8 +16,8 @@ website:
         text: Home
       - href: services/index.qmd  
         text: Services
-      - href: pricing.qmd  
-        text: Pricing
+      # - href: pricing.qmd  
+      #   text: Pricing
       - href: about/index.qmd
         text: Team
       - href: contact/index.qmd
