@@ -102,10 +102,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/index.html"> 
-<span class="menu-text">Team</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./contact/index.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
@@ -151,11 +147,54 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 
-<p><img src="img/client_logo.png" class="img-fluid"></p>
+<style>
+.banner-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 20s linear infinite;
+}
+.banner-track img {
+  height: 100px;
+  width: auto;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+.banner-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
+
+<div class="banner-wrapper">
+  <div class="banner-track">
+    <!-- Duplicate images so scrolling loops seamlessly -->
+    <img src="img/logo_1.png" alt="Photo 1">
+    <img src="img/logo_2.png" alt="Photo 2">
+    <img src="img/logo_3.png" alt="Photo 3">
+    <img src="img/logo_4.png" alt="Photo 4">
+    <img src="img/logo_5.png" alt="Photo 5">
+    <img src="img/logo_6.png" alt="Photo 6">
+    <img src="img/logo_7.png" alt="Photo 7">
+    <img src="img/logo_8.png" alt="Photo 8">
+    <!-- Duplicates for seamless loop -->
+    <img src="img/logo_1.png" alt="Photo 1">
+    <img src="img/logo_2.png" alt="Photo 2">
+    <img src="img/logo_3.png" alt="Photo 3">
+    <img src="img/logo_4.png" alt="Photo 4">
+    <img src="img/logo_5.png" alt="Photo 5">
+    <img src="img/logo_6.png" alt="Photo 6">
+    <img src="img/logo_7.png" alt="Photo 7">
+    <img src="img/logo_8.png" alt="Photo 8">
+  </div>
+</div>
 <div class="testimonial-box">
   <div class="testimonial-content">
     <div class="client-photo">
-      <img src="services/img/img_testimonial.jpeg" alt="Client Photo">
+      <img src="services/img/test_3.jpeg" alt="Client Photo">
     </div>
     <div class="testimonial-text">
       <blockquote class="blockquote">
